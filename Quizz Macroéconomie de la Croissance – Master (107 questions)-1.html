@@ -1,0 +1,2369 @@
+<!doctype html><html><head><meta charset=utf8><meta name=viewport content="width=device-width,initial-scale=1,viewport-fit=cover"><style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}html{scroll-padding-top:env(safe-area-inset-top,0px)}body{margin:0;padding:0;font:14px -apple-system,BlinkMacSystemFont,sans-serif;background:#faf9f5;color:#141413}img{max-width:100%}[hidden]:not([hidden=until-found i]){display:none!important}</style></head><body>
+<title>Quizz Macroéconomie de la Croissance - Édition Master (107 Questions)</title>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,600;1,6..72,400&family=Public+Sans:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap">
+
+<style>
+:root{
+  color-scheme: light;
+  --bg:#eef1f2;
+  --surface:#ffffff;
+  --surface-2:#f6f8f8;
+  --ink:#141f23;
+  --ink-2:#4a5b61;
+  --ink-3:#7d8f95;
+  --line:#d6dddf;
+  --line-strong:#b9c5c8;
+  --accent:#0f5b73;
+  --accent-soft:#e2eef2;
+  --good:#1f6b45;
+  --good-soft:#e2f1e8;
+  --bad:#a4302c;
+  --bad-soft:#f8e6e4;
+  --warn:#8a6210;
+  --warn-soft:#f7eeda;
+  --shadow:0 1px 2px rgba(20,31,35,.06), 0 8px 24px -12px rgba(20,31,35,.18);
+  --radius:12px;
+  --display:"Newsreader", Georgia, "Times New Roman", serif;
+  --body:"Public Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  --mono:"IBM Plex Mono", ui-monospace, "SFMono-Regular", Menlo, monospace;
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    color-scheme: dark;
+    --bg:#0d1416;
+    --surface:#151f22;
+    --surface-2:#1b262a;
+    --ink:#e7eef0;
+    --ink-2:#a7b8bd;
+    --ink-3:#7a8d93;
+    --line:#2a383d;
+    --line-strong:#3b4d53;
+    --accent:#6cb6cf;
+    --accent-soft:#17323c;
+    --good:#7bc99b;
+    --good-soft:#132b20;
+    --bad:#e8918c;
+    --bad-soft:#331b1a;
+    --warn:#dfb865;
+    --warn-soft:#2e2515;
+    --shadow:0 1px 2px rgba(0,0,0,.4), 0 10px 28px -14px rgba(0,0,0,.7);
+  }
+}
+:root[data-theme="dark"]{
+  color-scheme: dark;
+  --bg:#0d1416;
+  --surface:#151f22;
+  --surface-2:#1b262a;
+  --ink:#e7eef0;
+  --ink-2:#a7b8bd;
+  --ink-3:#7a8d93;
+  --line:#2a383d;
+  --line-strong:#3b4d53;
+  --accent:#6cb6cf;
+  --accent-soft:#17323c;
+  --good:#7bc99b;
+  --good-soft:#132b20;
+  --bad:#e8918c;
+  --bad-soft:#331b1a;
+  --warn:#dfb865;
+  --warn-soft:#2e2515;
+  --shadow:0 1px 2px rgba(0,0,0,.4), 0 10px 28px -14px rgba(0,0,0,.7);
+}
+
+*{box-sizing:border-box}
+body{
+  margin:0;
+  background:var(--bg);
+  color:var(--ink);
+  font-family:var(--body);
+  font-size:16px;
+  line-height:1.55;
+  -webkit-font-smoothing:antialiased;
+}
+.wrap{max-width:720px;margin:0 auto;padding-inline:16px;padding-block:0 48px}
+
+/* ---------- header ---------- */
+.topbar{
+  position:sticky;
+  top:env(safe-area-inset-top, 0px);
+  z-index:20;
+  background:color-mix(in srgb, var(--bg) 88%, transparent);
+  backdrop-filter:blur(10px);
+  border-bottom:1px solid var(--line);
+}
+.topbar-in{
+  max-width:720px;margin:0 auto;padding:10px 16px;
+  display:flex;align-items:center;gap:12px;flex-wrap:wrap;
+}
+.brand{
+  font-family:var(--display);font-weight:600;font-size:19px;letter-spacing:-.01em;
+  margin:0;flex:1 1 auto;min-width:0;
+}
+.brand span{color:var(--accent)}
+.scorechip{
+  font-family:var(--mono);font-size:13px;font-variant-numeric:tabular-nums;
+  background:var(--surface);border:1px solid var(--line);border-radius:999px;
+  padding:4px 11px;white-space:nowrap;
+}
+.scorechip b{color:var(--accent);font-weight:600}
+.bar{height:3px;background:var(--line);overflow:hidden}
+.bar i{display:block;height:100%;width:0;background:var(--accent);transition:width .3s ease}
+
+/* ---------- start ---------- */
+.hero{padding-block:28px 8px}
+.eyebrow{
+  font-family:var(--mono);font-size:11px;letter-spacing:.14em;text-transform:uppercase;
+  color:var(--ink-3);margin:0 0 10px
+}
+h1{
+  font-family:var(--display);font-weight:600;font-size:clamp(28px,7vw,40px);
+  line-height:1.12;letter-spacing:-.02em;margin:0 0 12px;text-wrap:balance
+}
+.lede{color:var(--ink-2);margin:0 0 4px;max-width:58ch}
+.rules{
+  display:flex;gap:8px;flex-wrap:wrap;margin-top:18px;
+  font-family:var(--mono);font-size:12px;
+}
+.rule{
+  border:1px solid var(--line);border-radius:8px;padding:5px 9px;background:var(--surface);
+  font-variant-numeric:tabular-nums;
+}
+.rule.p{color:var(--good);border-color:color-mix(in srgb,var(--good) 35%, var(--line))}
+.rule.z{color:var(--ink-3)}
+.rule.m{color:var(--bad);border-color:color-mix(in srgb,var(--bad) 35%, var(--line))}
+
+.panel{
+  background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);
+  padding:18px;margin-top:22px;box-shadow:var(--shadow)
+}
+.lbl{
+  font-family:var(--mono);font-size:11px;letter-spacing:.12em;text-transform:uppercase;
+  color:var(--ink-3);display:block;margin:0 0 9px
+}
+.modes{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:8px}
+.mode{
+  text-align:left;font:inherit;cursor:pointer;
+  background:var(--surface-2);border:1px solid var(--line);border-radius:10px;
+  padding:11px 12px;color:var(--ink);transition:border-color .15s,background .15s
+}
+.mode:hover{border-color:var(--line-strong)}
+.mode[aria-pressed="true"]{
+  border-color:var(--accent);background:var(--accent-soft);
+  box-shadow:inset 0 0 0 1px var(--accent)
+}
+.mode b{display:block;font-weight:600;font-size:14.5px}
+.mode em{display:block;font-style:normal;font-size:12.5px;color:var(--ink-2);margin-top:2px}
+.mode span.n{font-family:var(--mono);font-size:11.5px;color:var(--ink-3)}
+
+select{
+  font:inherit;font-size:15px;width:100%;padding:10px 12px;
+  background:var(--surface-2);color:var(--ink);
+  border:1px solid var(--line);border-radius:10px
+}
+.row2{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-top:16px}
+@media (max-width:460px){.row2{grid-template-columns:1fr}}
+
+.btn{
+  font:inherit;font-weight:600;font-size:16px;cursor:pointer;
+  background:var(--accent);color:#fff;border:1px solid transparent;
+  border-radius:10px;padding:13px 18px;width:100%;margin-top:16px;
+  transition:filter .15s
+}
+:root[data-theme="dark"] .btn, :root:not([data-theme="light"]) .btn{color:#08171d}
+@media (prefers-color-scheme: light){:root:not([data-theme="dark"]) .btn{color:#fff}}
+.btn:hover{filter:brightness(1.08)}
+.btn:disabled{opacity:.45;cursor:not-allowed}
+.btn.ghost{background:transparent;color:var(--ink);border-color:var(--line-strong)}
+.btn.ghost:hover{background:var(--surface-2);filter:none}
+
+/* ---------- question ---------- */
+.qhead{display:flex;align-items:center;gap:8px;flex-wrap:wrap;margin:22px 0 12px}
+.tag{
+  font-family:var(--mono);font-size:11px;letter-spacing:.06em;
+  border:1px solid var(--line);border-radius:999px;padding:3px 9px;color:var(--ink-2);
+  background:var(--surface)
+}
+.tag.theme{color:var(--accent);border-color:color-mix(in srgb,var(--accent) 35%,var(--line));background:var(--accent-soft)}
+.tag.hot{color:var(--warn);border-color:color-mix(in srgb,var(--warn) 40%,var(--line));background:var(--warn-soft)}
+.counter{margin-left:auto;font-family:var(--mono);font-size:12px;color:var(--ink-3);font-variant-numeric:tabular-nums}
+
+.card{background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);box-shadow:var(--shadow);overflow:hidden}
+.qtext{
+  font-family:var(--display);font-size:clamp(19px,4.4vw,23px);line-height:1.34;
+  font-weight:500;margin:0;padding:20px 20px 4px;text-wrap:balance
+}
+.opts{list-style:none;margin:0;padding:14px;display:flex;flex-direction:column;gap:8px}
+.opt{
+  display:flex;gap:11px;align-items:flex-start;width:100%;text-align:left;
+  font:inherit;font-size:15.5px;line-height:1.45;cursor:pointer;color:var(--ink);
+  background:var(--surface-2);border:1px solid var(--line);border-radius:10px;
+  padding:12px 13px;transition:border-color .12s,background .12s
+}
+.opt:hover:not(:disabled){border-color:var(--accent);background:var(--accent-soft)}
+.opt:disabled{cursor:default}
+.key{
+  flex:0 0 auto;font-family:var(--mono);font-size:12.5px;font-weight:600;
+  width:22px;height:22px;border-radius:6px;display:grid;place-items:center;
+  background:var(--surface);border:1px solid var(--line-strong);color:var(--ink-2);margin-top:1px
+}
+.opt.is-good{border-color:var(--good);background:var(--good-soft)}
+.opt.is-good .key{background:var(--good);border-color:var(--good);color:var(--surface)}
+.opt.is-bad{border-color:var(--bad);background:var(--bad-soft)}
+.opt.is-bad .key{background:var(--bad);border-color:var(--bad);color:var(--surface)}
+.opt.dim{opacity:.5}
+
+.feedback{border-top:1px solid var(--line);padding:16px 20px 20px;background:var(--surface-2)}
+.verdict{
+  display:flex;align-items:baseline;gap:9px;flex-wrap:wrap;
+  font-weight:700;font-size:15px;margin:0 0 9px
+}
+.verdict .pts{font-family:var(--mono);font-size:13px;font-weight:600;font-variant-numeric:tabular-nums}
+.v-good{color:var(--good)} .v-bad{color:var(--bad)} .v-skip{color:var(--ink-3)}
+.why{margin:0;color:var(--ink-2);font-size:15px;line-height:1.6}
+.why b{color:var(--ink)}
+.why code{font-family:var(--mono);font-size:13.5px;background:var(--surface);border:1px solid var(--line);border-radius:5px;padding:1px 5px}
+.actions{display:flex;gap:10px;margin-top:14px}
+.actions .btn{margin-top:0}
+.pass{margin-top:12px;display:flex;justify-content:center}
+.passbtn{
+  font:inherit;font-size:14px;color:var(--ink-3);background:none;border:none;
+  cursor:pointer;text-decoration:underline;text-underline-offset:3px;padding:6px
+}
+.passbtn:hover{color:var(--ink-2)}
+.hint{text-align:center;font-family:var(--mono);font-size:11.5px;color:var(--ink-3);margin-top:14px}
+
+/* ---------- results ---------- */
+.result{text-align:center;padding-block:30px 8px}
+.bigscore{
+  font-family:var(--mono);font-size:clamp(46px,14vw,70px);font-weight:600;
+  line-height:1;letter-spacing:-.03em;font-variant-numeric:tabular-nums;margin:0
+}
+.bigscore small{font-size:.38em;color:var(--ink-3);font-weight:500;letter-spacing:0}
+.verdictline{font-family:var(--display);font-size:20px;margin:14px 0 0;text-wrap:balance}
+.stats{display:grid;grid-template-columns:repeat(3,1fr);gap:8px;margin-top:22px}
+.stat{background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:12px 10px;text-align:center}
+.stat b{display:block;font-family:var(--mono);font-size:22px;font-variant-numeric:tabular-nums;line-height:1.2}
+.stat span{font-size:11.5px;color:var(--ink-3);font-family:var(--mono);letter-spacing:.06em;text-transform:uppercase}
+.stat.g b{color:var(--good)} .stat.b b{color:var(--bad)} .stat.s b{color:var(--ink-3)}
+
+.reviewlist{list-style:none;margin:16px 0 0;padding:0;display:flex;flex-direction:column;gap:10px}
+.rev{background:var(--surface);border:1px solid var(--line);border-left:3px solid var(--bad);border-radius:10px;padding:13px 15px}
+.rev.skipped{border-left-color:var(--line-strong)}
+.rev p{margin:0}
+.rev .rq{font-family:var(--display);font-size:16.5px;line-height:1.35;margin-bottom:6px}
+.rev .ra{font-size:14.5px;color:var(--good);font-weight:600}
+.rev .rw{font-size:14px;color:var(--ink-2);margin-top:5px;line-height:1.55}
+h2.sec{font-family:var(--display);font-size:21px;font-weight:600;margin:30px 0 0}
+.foot{margin-top:34px;padding-top:16px;border-top:1px solid var(--line);font-size:13px;color:var(--ink-3);line-height:1.6}
+.foot code{font-family:var(--mono);font-size:12px}
+
+@media (prefers-reduced-motion: reduce){*{transition:none!important;animation:none!important}}
+:focus-visible{outline:2px solid var(--accent);outline-offset:2px;border-radius:6px}
+</style>
+
+<div class="topbar">
+  <div class="topbar-in">
+    <p class="brand">Quizz <span>Croissance</span> Master (107 Questions)</p>
+    <span class="scorechip" id="chip" hidden>Score <b id="chipVal">0</b> pts</span>
+  </div>
+  <div class="bar"><i id="progbar"></i></div>
+</div>
+
+<div class="wrap">
+
+  <!-- ============ START ============ -->
+  <section id="screenStart">
+    <div class="hero">
+      <p class="eyebrow">Macroéconomie de la croissance · A. Epaulard</p>
+      <h1>Les QCM des annales & l'intégrale du cours (107 questions)</h1>
+      <p class="lede">L'intégralité du programme couverte en profondeur : annales 2019-2024, formules et calculs indispensables (Solow, Ramsey, AK, Romer, Aghion-Howitt), et théorie avancée (DICE 2023, Hotelling, Galor, Rostow, finance). Barème officiel avec points négatifs.</p>
+      <div class="rules">
+        <span class="rule p">Bonne réponse&nbsp;+0,5</span>
+        <span class="rule z">Sans réponse&nbsp;0</span>
+        <span class="rule m">Mauvaise réponse&nbsp;−0,25</span>
+      </div>
+    </div>
+
+    <div class="panel">
+      <span class="lbl">Que veux-tu réviser&nbsp;?</span>
+      <div class="modes" id="modes"></div>
+
+      <div class="row2">
+        <div>
+          <span class="lbl">Thème</span>
+          <select id="themeSel"><option value="">Tous les thèmes</option></select>
+        </div>
+        <div>
+          <span class="lbl">Nombre de questions</span>
+          <select id="lenSel">
+            <option value="10">10 — un tour rapide</option>
+            <option value="16" selected>16 — format officiel de l'examen (8 pts)</option>
+            <option value="30">30 — entraînement intensif</option>
+            <option value="50">50 — grand marathon de révision</option>
+            <option value="999">Toutes (l'intégrale des 107 questions)</option>
+          </select>
+        </div>
+      </div>
+
+      <button class="btn" id="startBtn">Commencer</button>
+      <p class="hint" id="poolInfo"></p>
+    </div>
+
+    <p class="foot">
+      Le quizz de l'examen compte historiquement 16 questions pour 8 points (une seule réponse possible). 
+      Cette version inclut de nouvelles sections spécifiques pour tester les formules et calculs mathématiques exigés.
+    </p>
+  </section>
+
+  <!-- ============ QUIZ ============ -->
+  <section id="screenQuiz" hidden>
+    <div class="qhead">
+      <span class="tag theme" id="qTheme"></span>
+      <span class="tag" id="qYear"></span>
+      <span class="tag hot" id="qHot" hidden>Tombe souvent</span>
+      <span class="counter" id="qCount"></span>
+    </div>
+
+    <div class="card">
+      <p class="qtext" id="qText"></p>
+      <ul class="opts" id="qOpts"></ul>
+      <div class="pass" id="passWrap">
+        <button class="passbtn" id="passBtn">Je passe (0 point)</button>
+      </div>
+      <div class="feedback" id="fb" hidden>
+        <p class="verdict" id="verdict"></p>
+        <p class="why" id="why"></p>
+        <div class="actions">
+          <button class="btn" id="nextBtn">Question suivante</button>
+        </div>
+      </div>
+    </div>
+    <p class="hint">Touches 1&nbsp;à&nbsp;5 pour répondre · P pour passer · Entrée pour continuer</p>
+  </section>
+
+  <!-- ============ RESULT ============ -->
+  <section id="screenEnd" hidden>
+    <div class="result">
+      <p class="eyebrow">Résultat</p>
+      <p class="bigscore" id="endScore"></p>
+      <p class="verdictline" id="endVerdict"></p>
+    </div>
+    <div class="stats">
+      <div class="stat g"><b id="stGood">0</b><span>justes</span></div>
+      <div class="stat b"><b id="stBad">0</b><span>fausses</span></div>
+      <div class="stat s"><b id="stSkip">0</b><span>blanches</span></div>
+    </div>
+
+    <div id="reviewWrap" hidden>
+      <h2 class="sec">À revoir</h2>
+      <ul class="reviewlist" id="reviewList"></ul>
+    </div>
+
+    <button class="btn" id="againMissed" hidden>Refaire seulement les ratées</button>
+    <button class="btn ghost" id="againBtn">Nouvelle série</button>
+
+    <p class="foot" id="memoNote"></p>
+  </section>
+
+</div>
+
+<script>
+"use strict";
+
+/* ============================================================
+   BANQUE DE QUESTIONS ÉTENDUE 2026
+   ============================================================ */
+const Q = [
+    {
+      "t": "Solow",
+      "y": [
+        "2020"
+      ],
+      "top": 1,
+      "q": "Dans le modèle néoclassique de Solow avec progrès technique exogène (g) et croissance démographique (n), à quel taux croît le PIB TOTAL sur le sentier régulier ?",
+      "o": [
+        "Au taux g",
+        "Au taux n + g",
+        "Au taux n",
+        "Au taux n + g + δ"
+      ],
+      "c": 1,
+      "w": "Sur le sentier de croissance régulier (steady state), le PIB <b>total</b> Y croît au taux <code>n + g</code>. En revanche, le PIB <b>par tête</b> (Y/L) croît au taux <code>g</code>, et le PIB par travailleur efficace (Y/AL) est <b>constant</b> (croissance nulle). Piège classique de lecture !"
+    },
+    {
+      "t": "Solow",
+      "y": [
+        "2022",
+        "2023",
+        "2024"
+      ],
+      "top": 1,
+      "q": "Dans un modèle de croissance néoclassique, l'épuisement de la croissance du PIB par travailleur efficace est liée :",
+      "o": [
+        "Aux rendements marginaux décroissants du capital",
+        "Aux rendements marginaux décroissants du travail",
+        "À la fois aux rendements marginaux décroissants du capital ET du travail",
+        "Ni aux rendements décroissants du capital, ni à ceux du travail"
+      ],
+      "c": 0,
+      "w": "C'est l'accumulation du <b>capital</b> qui s'essouffle du fait des <b>rendements marginaux décroissants du capital</b> (f''(k) < 0). Le travail n'est pas accumulé comme du capital. À mesure que k augmente, chaque unité de capital supplémentaire rapporte de moins en moins, jusqu'à compenser exactement la dépréciation et la dilution."
+    },
+    {
+      "t": "Solow",
+      "y": [
+        "2020"
+      ],
+      "top": 0,
+      "q": "Selon le modèle de Solow, deux pays partageant exactement la même technologie (fonction f, progrès technique g, dépréciation δ) convergeront vers le même niveau de capital par tête :",
+      "o": [
+        "Vrai",
+        "Faux"
+      ],
+      "c": 1,
+      "w": "<b>Faux.</b> Pour converger vers le même k*, ils doivent aussi partager le même <b>taux d'épargne (s)</b> et le même <b>taux de croissance démographique (n)</b>. S'ils diffèrent sur ces paramètres, ils convergeront vers des états stationnaires différents (convergence conditionnelle)."
+    },
+    {
+      "t": "Solow",
+      "y": [
+        "2022",
+        "2023",
+        "2024"
+      ],
+      "top": 1,
+      "q": "Dans un modèle de Solow, un pays croît d'autant plus rapidement qu'il :",
+      "o": [
+        "Est éloigné de son état stationnaire (avec k < k*)",
+        "Est peu développé",
+        "Est éloigné de son état stationnaire et a un taux de croissance de la population élevé",
+        "Est éloigné de son état stationnaire (k < k*), a un taux de croissance de la population élevé et un progrès technique élevé"
+      ],
+      "c": 3,
+      "w": "La réponse officielle <b>cumule les trois dimensions</b>. Plus k est inférieur à k*, plus f'(k) est élevée (effet de rattrapage). S'y ajoutent la dynamique démographique (n) et le progrès technique (g) qui tirent la croissance du PIB agrégé."
+    },
+    {
+      "t": "Solow",
+      "y": [
+        "2021"
+      ],
+      "top": 0,
+      "q": "Dans une économie avec fonction Cobb-Douglas Y = K^α (AL)^(1-α) où les facteurs sont rémunérés à leur productivité marginale, que représente α ?",
+      "o": [
+        "Le taux d'épargne optimal",
+        "La part de la rémunération du capital dans le PIB (rK/Y)",
+        "Le taux de croissance de long terme",
+        "L'élasticité de substitution intertemporelle"
+      ],
+      "c": 1,
+      "w": "La rémunération du capital est r = ∂Y/∂K = α Y/K. Par conséquent, la part du capital dans le PIB est <code>r·K / Y = α</code>. De même, la part du travail est <code>w·L / Y = 1 - α</code>. Ces parts sont constantes quelles que soient les quantités de facteurs."
+    },
+    {
+      "t": "Solow",
+      "y": [
+        "2024"
+      ],
+      "top": 1,
+      "q": "Avec Y = (AL)^(1-α) K^α et des facteurs payés à leur productivité marginale, une hausse permanente de A (la PTF) entraîne à l'état stationnaire :",
+      "o": [
+        "Une hausse du salaire réel et une hausse du taux d'intérêt",
+        "Une hausse du salaire réel uniquement",
+        "Une hausse du taux d'intérêt uniquement",
+        "Rien de tout cela car α est constant"
+      ],
+      "c": 1,
+      "w": "À l'état stationnaire, le capital par travailleur efficace k* est constant. Le taux d'intérêt <code>r = α (k*)^(α-1) - δ</code> est donc <b>constant</b>. En revanche, le salaire réel <code>w = (1-α) A (k*)^α</code> est <b>strictement proportionnel à A</b>. Le progrès technique enrichit le travail, pas le capital !"
+    },
+    {
+      "t": "Solow",
+      "y": [
+        "2019"
+      ],
+      "top": 0,
+      "q": "Qu'appelle-t-on la convergence 'absolue' par opposition à la convergence 'conditionnelle' ?",
+      "o": [
+        "Tous les pays convergent vers le même PIB par tête indépendamment de leurs paramètres structurels",
+        "Chaque pays converge vers son propre état stationnaire déterminé par son épargne et sa démographie",
+        "Les pays riches finissent par voir leur PIB baisser pour rejoindre les pays pauvres",
+        "La vitesse de convergence est constante dans le temps"
+      ],
+      "c": 0,
+      "w": "La convergence absolue suppose que tous les pays atteignent le même niveau de vie final, ce qui n'est vérifié empiriquement qu'au sein de clubs homogènes (OCDE). Les données mondiales valident uniquement la <b>convergence conditionnelle</b> (Barro, Mankiw-Romer-Weil 1992)."
+    },
+    {
+      "t": "Solow",
+      "y": [
+        "P"
+      ],
+      "top": 1,
+      "q": "Quelle est l'expression exacte de l'équation d'accumulation du capital par travailleur efficace k = K/(AL) ?",
+      "o": [
+        "dk/dt = s·f(k) - (δ + n + g)k",
+        "dk/dt = s·f(k) - (δ + n)k",
+        "dk/dt = f(k) - (δ + n + g)k - c",
+        "dk/dt = s·Y - δ·K"
+      ],
+      "c": 0,
+      "w": "Puisque k = K/(AL), la dérivation logarithmique donne <code>k̇/k = K̇/K - n - g</code>. En remplaçant K̇ = sY - δK = s·AL·f(k) - δ·AL·k, on obtient <code>dk/dt = s·f(k) - (n + g + δ)k</code>."
+    },
+    {
+      "t": "Solow",
+      "y": [
+        "P"
+      ],
+      "top": 1,
+      "q": "Avec f(k) = k^α, quel est le niveau de capital par travailleur efficace à l'état stationnaire k* ?",
+      "o": [
+        "k* = [s / (n + g + δ)]^(1/(1-α))",
+        "k* = [s / (n + g + δ)]^α",
+        "k* = [α / (n + g + δ)]^(1-α)",
+        "k* = s·α / (n + g + δ)"
+      ],
+      "c": 0,
+      "w": "À l'état stationnaire, dk/dt = 0 ⇔ s·(k*)^α = (n + g + δ)·k* ⇔ (k*)^(1-α) = s / (n + g + δ), d'où <code>k* = [s / (n + g + δ)]^(1/(1-α))</code>. Formule fondamentale à connaître par cœur pour l'examen !"
+    },
+    {
+      "t": "Solow",
+      "y": [
+        "P"
+      ],
+      "top": 0,
+      "q": "Si le taux d'épargne d'un pays augmente de façon permanente, quel est l'impact sur le taux de croissance du PIB par tête à LONG TERME ?",
+      "o": [
+        "Il augmente de façon permanente",
+        "Il reste inchangé à long terme (égal à g), mais augmente temporairement durant la transition",
+        "Il diminue à cause de la sur-accumulation",
+        "Il devient égal à n + g"
+      ],
+      "c": 1,
+      "w": "Dans le modèle de Solow, le taux d'épargne a un <b>effet de niveau</b> permanent sur le PIB par tête (k* plus élevé), mais <b>aucun effet de croissance à long terme</b> : le PIB par tête croît toujours à <code>g</code>. L'accélération de la croissance n'est que transitoire."
+    },
+    {
+      "t": "Solow",
+      "y": [
+        "P"
+      ],
+      "top": 0,
+      "q": "Dans la comptabilité de la croissance (résidu de Solow), comment s'écrit le taux de croissance de la PTF avec Y = A K^α L^(1-α) ?",
+      "o": [
+        "Δln(PTF) = Δln(Y) - α·Δln(K) - (1-α)·Δln(L)",
+        "Δln(PTF) = Δln(Y) / [α·Δln(K) + (1-α)·Δln(L)]",
+        "Δln(PTF) = α·Δln(Y) - (1-α)·Δln(K)",
+        "Δln(PTF) = Δln(Y) - Δln(K) - Δln(L)"
+      ],
+      "c": 0,
+      "w": "En différenciant le logarithme de la fonction de production : <code>Δln(PTF) = Δln(Y) - α·Δln(K) - (1-α)·Δln(L)</code>. La PTF est calculée comme un <b>résidu</b> non directement observable."
+    },
+    {
+      "t": "Solow",
+      "y": [
+        "2021"
+      ],
+      "top": 0,
+      "q": "Pourquoi la mesure du résidu de Solow (PTF) dépend-elle de la mesure du facteur travail ?",
+      "o": [
+        "Car si l'on mesure les heures travaillées au lieu des effectifs ou si l'on ajuste pour le capital humain, la part inexpliquée (PTF) varie",
+        "Car le travail est le seul facteur accumulable",
+        "Car le taux d'épargne dépend de la population active",
+        "C'est faux, le résidu est invariant"
+      ],
+      "c": 0,
+      "w": "Comme la PTF est un résidu comptable, toute amélioration de la mesure des facteurs (prise en compte de la durée du travail, de l'éducation, de la qualification) réduit d'autant la part attribuée à la 'technologie pure' (Bergeaud, Cette, Lecat)."
+    },
+    {
+      "t": "Règle d'or",
+      "y": [
+        "2022",
+        "2023"
+      ],
+      "top": 1,
+      "q": "Dans le modèle de Solow, la règle d'or est définie comme la situation où :",
+      "o": [
+        "Le stock de capital par travailleur efficace à l'état stationnaire est maximal",
+        "La consommation par travailleur efficace à l'état stationnaire est maximale",
+        "La consommation par travailleur à l'état stationnaire est maximale",
+        "Le stock de capital par travailleur à l'état stationnaire est maximal"
+      ],
+      "c": 1,
+      "w": "On cherche à maximiser le bien-être, donc la <b>consommation par travailleur efficace</b> (c*), et NON le capital. Piège récurrent au mot près : veiller à cocher 'par travailleur <b>efficace</b>' !"
+    },
+    {
+      "t": "Règle d'or",
+      "y": [
+        "2020",
+        "2021"
+      ],
+      "top": 1,
+      "q": "À la règle d'or dans une économie avec fonction Cobb-Douglas f(k) = k^α, quelle relation lie le taux d'épargne s et le paramètre α ?",
+      "o": [
+        "s = α",
+        "s = 1 - α",
+        "s = α / (n + g + δ)",
+        "s = ρ + α"
+      ],
+      "c": 0,
+      "w": "À l'état stationnaire, c* = f(k*) - (n+g+δ)k*. La CPO dc*/dk* = 0 donne <code>f'(k**) = n + g + δ</code>. Avec f(k) = k^α, cela implique α·(k**)^(α-1) = n+g+δ. Or (k**)^(1-α) = s/(n+g+δ). Donc <code>s = α</code>."
+    },
+    {
+      "t": "Règle d'or",
+      "y": [
+        "2020",
+        "2021"
+      ],
+      "top": 1,
+      "q": "Si une économie a un taux d'épargne s > α, que peut-on dire de son stock de capital par rapport à la règle d'or ?",
+      "o": [
+        "Il est supérieur à celui de la règle d'or (sur-accumulation de capital)",
+        "Il est inférieur à celui de la règle d'or",
+        "Il est exactement à la règle d'or",
+        "L'économie converge vers zéro capital"
+      ],
+      "c": 0,
+      "w": "Si s > α, l'économie épargne trop : elle est en situation d'<b>inefficacité dynamique</b>. k* > k**. Trop de ressources sont gaspillées pour renouveler et entretenir un stock de capital géant au détriment de la consommation."
+    },
+    {
+      "t": "Règle d'or",
+      "y": [
+        "2019"
+      ],
+      "top": 1,
+      "q": "Dans une économie où s > α (sur-accumulation), que se passe-t-il pour la consommation si le gouvernement baisse le taux d'épargne vers s = α ?",
+      "o": [
+        "Toutes les générations (présente et futures) voient leur consommation augmenter immédiatement et de façon permanente",
+        "La génération présente doit se sacrifier pour les futures",
+        "La consommation baisse immédiatement puis remonte",
+        "L'économie entre en récession définitive"
+      ],
+      "c": 0,
+      "w": "C'est un <b>gain au sens de Pareto pur</b> ! En réduisant l'épargne, la génération actuelle consomme instantanément davantage (1-s augmente), et à long terme, le nouvel état stationnaire offre également une consommation supérieure. Aucun sacrifice n'est requis."
+    },
+    {
+      "t": "Règle d'or",
+      "y": [
+        "2019"
+      ],
+      "top": 1,
+      "q": "Dans une économie où initialement s < α, que se passe-t-il si l'on augmente le taux d'épargne pour atteindre la règle d'or ?",
+      "o": [
+        "Toutes les générations en bénéficient immédiatement",
+        "La génération actuelle doit réduire sa consommation (sacrifice) pour que les générations futures consomment plus",
+        "La consommation ne changera jamais",
+        "Le taux d'intérêt réel augmente"
+      ],
+      "c": 1,
+      "w": "Il y a un <b>arbitrage intergénérationnel</b> : à court terme, pour épargner plus, il faut consommer moins aujourd'hui. Les générations futures profiteront d'un capital plus élevé, mais la génération présente subit une perte de consommation."
+    },
+    {
+      "t": "Règle d'or",
+      "y": [
+        "P"
+      ],
+      "top": 0,
+      "q": "Quelle condition sur la productivité marginale nette du capital caractérise la règle d'or ?",
+      "o": [
+        "f'(k**) - δ = n + g",
+        "f'(k**) = 0",
+        "f'(k**) - δ = ρ",
+        "f'(k**) = s"
+      ],
+      "c": 0,
+      "w": "La condition est <code>f'(k**) = n + g + δ</code>, ce qui s'écrit de manière équivalente : la productivité marginale nette du capital (r = f' - δ) doit être égale au taux de croissance de l'économie sur le sentier régulier (n + g)."
+    },
+    {
+      "t": "Règle d'or",
+      "y": [
+        "P"
+      ],
+      "top": 0,
+      "q": "À la règle d'or de Solow, quelle part du produit est réinvestie chaque année ?",
+      "o": [
+        "Exactement l'équivalent de la rémunération totale du capital dans l'économie",
+        "La totalité du produit",
+        "L'équivalent des salaires versés",
+        "Zéro"
+      ],
+      "c": 0,
+      "w": "Puisque s = α, l'investissement I = sY = αY. Comme αY représente la rémunération globale du capital (rK), la règle d'or stipule que <b>tout le revenu du capital doit être épargné/réinvesti</b>, et tout le revenu du travail doit être consommé."
+    },
+    {
+      "t": "Ramsey",
+      "y": [
+        "2020",
+        "2021",
+        "2024"
+      ],
+      "top": 1,
+      "q": "Dans le modèle néoclassique avec épargne endogène (Ramsey), le taux de croissance de la consommation hors état stationnaire est d'autant plus élevé que :",
+      "o": [
+        "Le taux de préférence pour le présent (ρ) est élevé",
+        "Le taux de préférence pour le présent (ρ) est faible",
+        "C'est indépendant de ρ",
+        "L'élasticité de substitution intertemporelle est nulle"
+      ],
+      "c": 1,
+      "w": "D'après l'équation d'Euler : <code>ċ/c = (1/ε)[f'(k) - (n + g + δ) - ρ]</code>. Moins l'agent est impatient (ρ faible), plus il valorise l'avenir, plus il épargne, et plus la croissance de la consommation est rapide."
+    },
+    {
+      "t": "Ramsey",
+      "y": [
+        "2022",
+        "2023",
+        "2024"
+      ],
+      "top": 1,
+      "q": "Dans le modèle de Ramsey, hors de l'état stationnaire, le taux de croissance de la consommation dépend de l'élasticité de substitution intertemporelle (1/ε) :",
+      "o": [
+        "Positivement",
+        "Négativement",
+        "Pas du tout",
+        "De manière non linéaire en cloche"
+      ],
+      "c": 0,
+      "w": "Dans l'équation d'Euler, le terme [f'(k) - (n+g+δ) - ρ] est multiplié par <code>1/ε</code> (l'élasticité de substitution intertemporelle). Plus 1/ε est grande, plus l'agent est prêt à différer sa consommation lorsque le rendement du capital est attractif."
+    },
+    {
+      "t": "Ramsey",
+      "y": [
+        "2019"
+      ],
+      "top": 0,
+      "q": "Dans le modèle de Ramsey, le stock de capital par travailleur efficace à l'état stationnaire k* est :",
+      "o": [
+        "Une fonction croissante de ρ, n, g et δ",
+        "Une fonction décroissante de ρ, n, g et δ",
+        "Indépendant de ces quatre paramètres",
+        "Égal au k** de la règle d'or"
+      ],
+      "c": 1,
+      "w": "À l'état stationnaire, ċ/c = 0 ⇔ <code>f'(k*) = ρ + n + g + δ</code>. Comme f'(k) est une fonction strictement décroissante, toute augmentation de ρ, n, g ou δ augmente le membre de droite et <b>fait baisser k*</b>."
+    },
+    {
+      "t": "Ramsey",
+      "y": [
+        "P"
+      ],
+      "top": 1,
+      "q": "Comment se compare le stock de capital d'état stationnaire de Ramsey (k*_Ramsey) à celui de la règle d'or de Solow (k**_or) ?",
+      "o": [
+        "k*_Ramsey < k**_or dès lors que ρ > 0",
+        "k*_Ramsey > k**_or",
+        "k*_Ramsey = k**_or",
+        "k*_Ramsey est infini"
+      ],
+      "c": 0,
+      "w": "À la règle d'or, f'(k**) = n + g + δ. Chez Ramsey, f'(k*) = n + g + δ + ρ. Comme ρ > 0, on a f'(k*) > f'(k**). Puisque f' est décroissante, cela implique obligatoirement <code>k*_Ramsey < k**_or</code>. Les agents impatients ne sur-accumulent jamais !"
+    },
+    {
+      "t": "Ramsey",
+      "y": [
+        "P"
+      ],
+      "top": 1,
+      "q": "Pourquoi la discussion sur l'inefficacité dynamique (sur-accumulation) et la règle d'or 'disparaît-elle' dans le modèle de Ramsey ?",
+      "o": [
+        "Parce que le taux d'épargne y est endogène et optimal par construction (les ménages maximisent leur utilité intertemporelle)",
+        "Parce que le capital ne se déprécie plus",
+        "Parce que le progrès technique est nul",
+        "Parce que le planificateur interdit l'épargne"
+      ],
+      "c": 0,
+      "w": "Dans Solow, le taux d'épargne est une constante exogène imposée (s). Dans Ramsey, l'épargne découle des choix optimaux d'arbitrage intertemporel des ménages. L'économie ne choisira jamais rationnellement d'accumuler du capital au-delà du seuil où il nuit à la consommation future."
+    },
+    {
+      "t": "Ramsey",
+      "y": [
+        "P"
+      ],
+      "top": 0,
+      "q": "Que représente la variable co-état (le multiplicateur λ du Hamiltonien) dans le modèle de Ramsey ?",
+      "o": [
+        "Le prix d'ombre (valeur marginale) d'une unité de capital supplémentaire, exprimé en unités d'utilité",
+        "Le taux d'intérêt de marché en euros",
+        "Le salaire d'équilibre",
+        "Le taux de taxe optimal"
+      ],
+      "c": 0,
+      "w": "λ(t) est l'utilité marginale procurée par une unité de capital supplémentaire à la date t. La condition du premier ordre ∂H/∂c = 0 donne d'ailleurs <code>u'(c) = λ</code> : à la marge, l'utilité d'une unité consommée égale l'utilité d'une unité épargnée."
+    },
+    {
+      "t": "Ramsey",
+      "y": [
+        "P"
+      ],
+      "top": 1,
+      "q": "Quelle est la fonction essentielle de la condition de transversalité lim [t→∞] e^(-ρt) λ(t) k(t) = 0 ?",
+      "o": [
+        "Éliminer les trajectoires explosives ou d'endettement infini (schémas de Ponzi) pour sélectionner l'unique sentier stable (la trajectoire de selle)",
+        "Garantir que le capital tombe à zéro à l'infini",
+        "Fixer le taux d'intérêt à zéro",
+        "Empêcher le progrès technique"
+      ],
+      "c": 0,
+      "w": "Les deux équations différentielles (Euler et accumulation) admettent une infinité de trajectoires mathématiques. La condition de transversalité impose que la valeur actualisée du capital à l'infini soit nulle : elle exclut l'accumulation stérile de capital infini ou l'emprunt perpétuel sans remboursement."
+    },
+    {
+      "t": "Ramsey",
+      "y": [
+        "2022",
+        "2024"
+      ],
+      "top": 1,
+      "q": "Le modèle néoclassique de Ramsey prédit-il une convergence absolue ou une divergence des PIB par travailleur efficace ?",
+      "o": [
+        "La convergence des PIB par travailleur efficace",
+        "La divergence des PIB par travailleur efficace",
+        "À la fois la convergence et la divergence des PIB par travailleur efficace",
+        "Ni la convergence, ni la divergence des PIB par travailleur efficace"
+      ],
+      "c": 3,
+      "w": "Question piège classique des annales ! Le modèle prédit une convergence <b>conditionnelle</b> (chaque pays converge vers son propre k*, déterminé par ses paramètres de préférences ρ, ε et de technologie). Il ne prédit donc de manière inconditionnelle ni convergence ni divergence globale."
+    },
+    {
+      "t": "Ramsey",
+      "y": [
+        "2020",
+        "2021"
+      ],
+      "top": 0,
+      "q": "Sur données macroéconomiques annuelles, quel ordre de grandeur est standard et réaliste pour le taux de préférence pour le présent ρ ?",
+      "o": [
+        "Environ 2% à 4% par an",
+        "Environ 25% par an",
+        "Environ 98% par an",
+        "Strictement 0%"
+      ],
+      "c": 0,
+      "w": "Un taux de 2% à 4% par an (0.02 - 0.04) est la norme de calibration macroéconomique. Attention à ne pas confondre le taux d'actualisation ρ avec le facteur d'actualisation β = 1/(1+ρ) qui vaut environ 0.96 - 0.98 !"
+    },
+    {
+      "t": "Ramsey",
+      "y": [
+        "P"
+      ],
+      "top": 0,
+      "q": "Dans le diagramme de phase (k, c) du modèle de Ramsey, comment se caractérise la droite dc/dt = 0 ?",
+      "o": [
+        "Une droite verticale au niveau k* tel que f'(k*) = ρ + n + g + δ",
+        "Une courbe en cloche passant par l'origine",
+        "Une droite horizontale",
+        "Une droite de pente 45 degrés"
+      ],
+      "c": 0,
+      "w": "L'équation d'Euler s'annule quand f'(k) = ρ + n + g + δ. Comme cette condition ne dépend que de k et pas de c, la courbe <code>dc/dt = 0</code> est une <b>droite verticale</b> dans le plan (k, c)."
+    },
+    {
+      "t": "Chocs",
+      "y": [
+        "2019",
+        "2020"
+      ],
+      "top": 1,
+      "q": "Une guerre ou une catastrophe naturelle détruit instantanément 50% du stock de capital d'un pays à son état stationnaire (sans affecter la technologie ni la population). L'état stationnaire final :",
+      "o": [
+        "Devient plus faible qu'avant la catastrophe",
+        "Devient plus élevé qu'avant la catastrophe",
+        "Reste strictement identique à celui d'avant la catastrophe",
+        "Disparaît"
+      ],
+      "c": 2,
+      "w": "<b>Résultat fondamental :</b> k* ne dépend que des paramètres structurels (s, n, g, δ, ρ, α). Aucun de ces paramètres n'a changé ! L'état stationnaire cible reste donc exactement le même. Seul le niveau courant de capital k(0) a chuté."
+    },
+    {
+      "t": "Chocs",
+      "y": [
+        "2019",
+        "2020"
+      ],
+      "top": 1,
+      "q": "Immédiatement après la destruction de capital mentionnée ci-dessus, comment réagit l'économie sur son sentier optimal de Ramsey ?",
+      "o": [
+        "La consommation par tête chute instantanément pour se placer sur la trajectoire de selle, puis le capital et la consommation croissent plus vite qu'à l'état régulier jusqu'au retour à k*",
+        "La consommation augmente pour compenser le choc",
+        "La croissance devient définitivement plus faible",
+        "L'économie reste bloquée au point bas"
+      ],
+      "c": 0,
+      "w": "La variable de commande c fait un saut discrétionnaire vers le bas pour rejoindre la trajectoire de selle. Comme k est devenu faible, la productivité marginale f'(k) est très élevée, ce qui stimule l'épargne et induit une <b>croissance transitoire plus forte</b> jusqu'au retour à l'équilibre."
+    },
+    {
+      "t": "Chocs",
+      "y": [
+        "2024"
+      ],
+      "top": 1,
+      "q": "Si un afflux soudain et unique de migrants augmente la population L de 5% (sans capital initial), qu'advient-il de l'état stationnaire (k*, c*) si le taux de croissance démographique ultérieur redevient n ?",
+      "o": [
+        "L'état stationnaire (k*, c*) reste inchangé",
+        "L'état stationnaire k* diminue définitivement de 5%",
+        "L'état stationnaire k* augmente",
+        "L'économie entre dans une trappe à pauvreté"
+      ],
+      "c": 0,
+      "w": "C'est l'exercice d'examen 2024 ! Le taux de croissance de long terme de la population reste n. Les paramètres n, g, δ, s, ρ sont identiques, donc l'état stationnaire <b>(k*, c*) par travailleur efficace ne change pas</b>."
+    },
+    {
+      "t": "Chocs",
+      "y": [
+        "2024"
+      ],
+      "top": 1,
+      "q": "Dans ce choc migratoire (hausse ponctuelle de L de 5% sans apport de capital), que se passe-t-il à court terme pour k = K/(AL) ?",
+      "o": [
+        "k chute instantanément de 5% car le dénominateur L augmente brutalement pour un stock K donné",
+        "k augmente instantanément",
+        "k reste strictement constant",
+        "k saute à l'état stationnaire"
+      ],
+      "c": 0,
+      "w": "K étant une variable d'état prédéterminée, il ne peut pas sauter. La hausse brutale de L dilue le capital par tête : k(t) = K / (A·1.05·L) diminue immédiatement. L'économie se retrouve à gauche de son k* et va devoir ré-accumuler du capital."
+    },
+    {
+      "t": "Chocs",
+      "y": [
+        "2024"
+      ],
+      "top": 0,
+      "q": "Comment serait modifiée la dynamique si les migrants arrivaient avec exactement la même dotation en capital par tête et même productivité que les résidents ?",
+      "o": [
+        "k ne subit aucune dilution, l'économie reste immédiatement à son état stationnaire sans phase de transition",
+        "k chute quand même à cause des rendements décroissants",
+        "k augmente de 5%",
+        "Le taux de croissance devient négatif"
+      ],
+      "c": 0,
+      "w": "Si les nouveaux arrivants apportent avec eux le capital correspondant (ΔK/K = ΔL/L = 5%), le ratio k = K/(AL) n'est absolument pas modifié. L'économie reste directement sur son état stationnaire k*."
+    },
+    {
+      "t": "Chocs",
+      "y": [
+        "2022"
+      ],
+      "top": 0,
+      "q": "Dans l'exercice 2022, si une fraction des terres devient inondable (X diminue de façon permanente), comment se déplace la courbe dk/dt = 0 dans le plan (k, c) ?",
+      "o": [
+        "Elle se déplace vers le bas car la production totale et le PIB par travailleur efficace diminuent pour tout k",
+        "Elle se déplace vers le haut",
+        "Elle ne bouge pas car la terre n'est pas du capital",
+        "Elle devient une droite verticale"
+      ],
+      "c": 0,
+      "w": "Avec Y = A K^α X^β L^(1-α-β), la production par travailleur efficace est y = k^α x^β. Si X baisse, x baisse, donc y diminue pour tout k. La courbe <code>c = y - (n+g+δ)k</code> glisse vers le bas, réduisant le niveau stationnaire de consommation."
+    },
+    {
+      "t": "AK · externalités",
+      "y": [
+        "2020"
+      ],
+      "top": 0,
+      "q": "Les modèles de croissance endogène de type 'AK' prédisent-ils la convergence des niveaux de PIB par tête entre pays ?",
+      "o": [
+        "Vrai",
+        "Faux"
+      ],
+      "c": 1,
+      "w": "<b>Faux.</b> En l'absence de rendements décroissants au niveau agrégé, il n'y a pas de force de rappel. Deux pays ayant des taux d'épargne ou des dotations initiales différents ne convergeront jamais : leurs écarts de richesse sont permanents."
+    },
+    {
+      "t": "AK · externalités",
+      "y": [
+        "2022",
+        "2023",
+        "2024"
+      ],
+      "top": 1,
+      "q": "Dans le modèle AK avec externalités de capital A = A₀ K^η et α + η = 1, la croissance est d'autant plus élevée que :",
+      "o": [
+        "Le nombre de firmes/ménages N est grand",
+        "Le nombre de firmes N est petit",
+        "Les externalités sont nulles",
+        "Le nombre de firmes N est petit ou les externalités sont nulles"
+      ],
+      "c": 0,
+      "w": "C'est un <b>effet d'échelle</b> : plus N est grand, plus le stock de capital total agrégé K = N·k est massif, plus l'externalité de productivité Ā est forte, ce qui dope la rentabilité et le taux de croissance : <code>g = (α A₀ N^η - ρ)/ε</code>."
+    },
+    {
+      "t": "AK · externalités",
+      "y": [
+        "2022",
+        "2023"
+      ],
+      "top": 1,
+      "q": "Dans ce modèle AK avec externalités positives de capital, comment se compare le taux de croissance décentralisé (g) à celui du planificateur central (g*) ?",
+      "o": [
+        "g_décentralisé < g_centralisé",
+        "g_décentralisé > g_centralisé",
+        "g_décentralisé = g_centralisé",
+        "Cela dépend du taux d'actualisation"
+      ],
+      "c": 0,
+      "w": "Chaque firme privée considère l'externalité Ā comme donnée et n'en tient pas compte lors de son investissement. Elle perçoit un rendement privé α A₀ N^η inférieur au rendement social A₀ N^η. Résultat : <b>sous-investissement privé et croissance décentralisée trop faible</b>."
+    },
+    {
+      "t": "AK · externalités",
+      "y": [
+        "2024"
+      ],
+      "top": 1,
+      "q": "Lorsqu'il y a des externalités de production POSITIVES dans une économie, la politique fiscale optimale consistera à :",
+      "o": [
+        "Subventionner les activités productives en finançant cette aide par un impôt forfaitaire (capitation) sur les ménages",
+        "Taxer les activités productives pour redistribuer aux ménages",
+        "Ne pas intervenir pour laisser jouer le marché",
+        "Fixer un prix plafond sur le capital"
+      ],
+      "c": 0,
+      "w": "Externalité positive ⇒ les firmes n'en font pas assez ⇒ il faut <b>subventionner la production/l'investissement</b>. Pour ne pas créer de nouvelle distorsion économique, l'État finance cette subvention via un <b>impôt forfaitaire (lump-sum / capitation)</b>."
+    },
+    {
+      "t": "AK · externalités",
+      "y": [
+        "2020",
+        "2022",
+        "2023"
+      ],
+      "top": 1,
+      "q": "Lorsqu'il y a des externalités de production NÉGATIVES dans une économie (ex: pollution), la politique fiscale optimale tentera de :",
+      "o": [
+        "Taxer les activités productives polluantes et redistribuer les recettes sous forme de transferts forfaitaires aux ménages",
+        "Subventionner les pollueurs",
+        "Interdire toute production de biens industriels",
+        "Baisser les taux d'intérêt"
+      ],
+      "c": 0,
+      "w": "Externalité négative ⇒ les firmes privées produisent trop par rapport à l'optimum social ⇒ taxe pigouvienne sur la production pour internaliser le coût social, avec redistribution forfaitaire."
+    },
+    {
+      "t": "AK · externalités",
+      "y": [
+        "P"
+      ],
+      "top": 0,
+      "q": "Dans le modèle à externalités, que se passerait-il si l'élasticité globale du capital vérifiait α + η > 1 ?",
+      "o": [
+        "La croissance exploserait vers l'infini en temps fini (croissance explosive instable)",
+        "L'économie s'effondrerait vers zéro",
+        "On retrouverait le modèle de Solow",
+        "Le taux d'intérêt deviendrait négatif"
+      ],
+      "c": 0,
+      "w": "Si α + η > 1, les rendements marginaux du capital sont strictement croissants au niveau macroéconomique. Le taux de croissance augmenterait avec le niveau de capital, conduisant à une divergence explosive mathématiquement intenable."
+    },
+    {
+      "t": "AK · externalités",
+      "y": [
+        "2023"
+      ],
+      "top": 1,
+      "q": "Dans l'examen 2023, avec y_i = k_i^α (A l_i)^(1-α) et A = A₀ K^θ avec -α < θ < 0, de quel type d'externalité s'agit-il ?",
+      "o": [
+        "Une externalité négative (encombrement / congestion du capital)",
+        "Une externalité positive d'apprentissage",
+        "Une externalité de réseau",
+        "Une absence totale d'externalité"
+      ],
+      "c": 0,
+      "w": "Puisque l'exposant θ est négatif (θ < 0), une hausse du stock de capital agrégé K fait <b>baisser la productivité A</b>. C'est typiquement un effet d'encombrement ou de congestion d'infrastructures communes."
+    },
+    {
+      "t": "AK · externalités",
+      "y": [
+        "2023"
+      ],
+      "top": 1,
+      "q": "Dans ce cas d'externalité négative (θ < 0), comment se compare l'état stationnaire décentralisé k* à l'état stationnaire optimal du planificateur k** ?",
+      "o": [
+        "k*_décentralisé > k**_centralisé (sur-accumulation privée par rapport à l'optimum)",
+        "k*_décentralisé < k**_centralisé",
+        "k*_décentralisé = k**_centralisé",
+        "Les deux sont nuls"
+      ],
+      "c": 0,
+      "w": "Comme les entreprises privées ignorent la nuisance qu'elles infligent aux autres en installant du capital (θ < 0), elles sur-investissent. Le stock de capital décentralisé est <b>trop élevé</b> par rapport à ce que choisirait un planificateur bienveillant."
+    },
+    {
+      "t": "AK · externalités",
+      "y": [
+        "P"
+      ],
+      "top": 0,
+      "q": "Dans l'extension du cours avec dépenses publiques financées par impôt (Barro : y = A k^α γ^(1-α) avec γ = τ y), quel taux d'imposition τ maximise la croissance ?",
+      "o": [
+        "τ = 1 - α",
+        "τ = α",
+        "τ = 0",
+        "τ = 100%"
+      ],
+      "c": 0,
+      "w": "Il y a un arbitrage : l'impôt distord les incitations privées, mais finance une infrastructure publique productive γ. La maximisation du taux de croissance donne <code>τ* = 1 - α</code>, soit exactement le poids des dépenses publiques dans la fonction de production."
+    },
+    {
+      "t": "AK · externalités",
+      "y": [
+        "P"
+      ],
+      "top": 0,
+      "q": "Pourquoi dit-on que le modèle AK repose sur un équilibre mathématique 'au couteau' ?",
+      "o": [
+        "Parce qu'il exige rigoureusement α + η = 1 pile, une égalité exacte de paramètres structurels peu plausible empiriquement",
+        "Parce que le taux d'épargne doit être égal à 1",
+        "Parce que le capital physique remplace entièrement le travail",
+        "Parce qu'il n'admet aucune solution d'équilibre"
+      ],
+      "c": 0,
+      "w": "Si α + η est ne serait-ce qu'infime sous 1, la croissance s'éteint (retour à Solow). Si c'est au-dessus de 1, la croissance explose. C'est la critique majeure qui a motivé Romer et Aghion-Howitt à modéliser des moteurs explicites d'innovation."
+    },
+    {
+      "t": "Romer · variété",
+      "y": [
+        "2022",
+        "2023"
+      ],
+      "top": 1,
+      "q": "Dans le modèle de Romer (variété de biens), quelle est la structure de marché dans le secteur des biens intermédiaires ?",
+      "o": [
+        "Concurrence monopolistique (chaque producteur est en situation de monopole sur sa variété)",
+        "Concurrence parfaite",
+        "Monopole public d'État",
+        "Monopsone"
+      ],
+      "c": 0,
+      "w": "La rente de monopole (protégée par brevet) est la condition <i>sine qua non</i> : c'est elle qui permet d'amortir les coûts fixes de recherche et développement. Sans pouvoir de marché, le profit serait nul et personne n'innoverait."
+    },
+    {
+      "t": "Romer · variété",
+      "y": [
+        "2023"
+      ],
+      "top": 1,
+      "q": "Avec Y = L₁^(1-α) ∫₀^M x_i^α di et un secteur final en concurrence parfaite, comment s'établit la demande inverse pour chaque variété intermédiaire p_i ?",
+      "o": [
+        "p_i = α L₁^(1-α) x_i^(α-1)",
+        "p_i = (1-α) L₁^(-α) x_i^α",
+        "p_i = L₁^(1-α) x_i^α",
+        "p_i = α x_i"
+      ],
+      "c": 0,
+      "w": "En concurrence parfaite, chaque input intermédiaire est rémunéré à sa productivité marginale : <code>p_i = ∂Y/∂x_i = α L₁^(1-α) x_i^(α-1)</code>. Formule essentielle du cours."
+    },
+    {
+      "t": "Romer · variété",
+      "y": [
+        "P"
+      ],
+      "top": 1,
+      "q": "Dans le secteur intermédiaire, chaque unité de bien intermédiaire nécessite 1 unité de bien final. Quelle quantité x_i chaque monopoleur choisit-il de produire ?",
+      "o": [
+        "x_i = L₁ α^(2/(1-α))",
+        "x_i = L₁ α^(1/(1-α))",
+        "x_i = α / L₁",
+        "x_i = M · L₁"
+      ],
+      "c": 0,
+      "w": "Le monopole maximise son profit : Π_i = p_i x_i - x_i = α L₁^(1-α) x_i^α - x_i. La dérivée s'annule pour α² L₁^(1-α) x_i^(α-1) = 1, ce qui donne <code>x_i = L₁ α^(2/(1-α))</code>."
+    },
+    {
+      "t": "Romer · variété",
+      "y": [
+        "2023"
+      ],
+      "top": 1,
+      "q": "Dans le modèle de Romer, comment évolue le salaire réel w_t au cours du temps à l'équilibre régulier ?",
+      "o": [
+        "Le salaire croît au même rythme que la variété M_t (donc au taux de croissance g de l'économie)",
+        "Le salaire reste strictement constant",
+        "Le salaire croît à un taux moitié moindre que le PIB",
+        "Le salaire diminue car les machines remplacent les hommes"
+      ],
+      "c": 0,
+      "w": "On démontre que w_t = (1-α) α^(2α/(1-α)) M_t. Le salaire est <b>strictement linéaire en M_t</b> : l'accumulation de nouvelles variétés augmente la productivité du travail et fait croître le salaire réel au rythme de l'économie."
+    },
+    {
+      "t": "Romer · variété",
+      "y": [
+        "2024"
+      ],
+      "top": 1,
+      "q": "Quelle est la formule du taux de croissance de l'économie décentralisée dans le modèle de Romer du cours ?",
+      "o": [
+        "g = (α·λ·L - ρ) / (α + ε)",
+        "g = (λ·L - ρ) / ε",
+        "g = λ·L - ρ",
+        "g = α·λ·L / ε"
+      ],
+      "c": 0,
+      "w": "La formule exacte est <code>g = (α·λ·L - ρ) / (α + ε)</code>. Elle combine la productivité de la recherche λ, la taille du marché du travail L, la préférence pour le présent ρ et l'aversion au risque ε."
+    },
+    {
+      "t": "Romer · variété",
+      "y": [
+        "2024"
+      ],
+      "top": 1,
+      "q": "Dans l'exercice d'examen 2024, quel taux de croissance g* le planificateur social obtient-il dans le modèle de Romer ?",
+      "o": [
+        "g* = (λ·L - ρ) / ε",
+        "g* = (α·λ·L - ρ) / (α + ε)",
+        "g* = λ·L",
+        "g* = (1-α)λ·L / ε"
+      ],
+      "c": 0,
+      "w": "Le planificateur social trouve <code>g* = (λ·L - ρ) / ε</code>. Comme α < 1, on a immédiatement <b>g* > g</b> : le planificateur alloue davantage de chercheurs à la R&D que le marché privé."
+    },
+    {
+      "t": "Romer · variété",
+      "y": [
+        "2024"
+      ],
+      "top": 1,
+      "q": "Pour quelles raisons théoriques le taux de croissance décentralisé est-il inférieur à l'optimum social dans Romer ?",
+      "o": [
+        "Distorsion de monopole sur les biens intermédiaires, externalité de recherche 'sur les épaules de géants' et non-appropriabilité du surplus total par l'innovateur",
+        "Parce que les chercheurs demandent des salaires trop élevés",
+        "Parce que le taux d'épargne est exogène",
+        "À cause de rendements marginaux croissants non maîtrisés"
+      ],
+      "c": 0,
+      "w": "Il y a 3 défaillances de marché convergentes : (1) le monopole sous-produit chaque variété (markup), (2) le chercheur n'est pas rémunéré pour le fait d'accroître M qui facilitera la recherche future (terme λ M L₂), (3) l'innovateur ne capte qu'une fraction du surplus des consommateurs."
+    },
+    {
+      "t": "Romer · variété",
+      "y": [
+        "2020",
+        "2021"
+      ],
+      "top": 1,
+      "q": "Quels sont les DEUX canaux par lesquels l'ouverture commerciale favorise la croissance dans le modèle à variété de biens ?",
+      "o": [
+        "Accroissement de la variété des biens intermédiaires disponibles pour le secteur final (+) et élargissement des débouchés stimulant les profits de R&D (+)",
+        "Hausse des droits de douane et baisse des salaires",
+        "Élimination des monopoles et subvention des importations",
+        "Diminution du stock de capital"
+      ],
+      "c": 0,
+      "w": "<b>Toujours citer les deux canaux :</b> (1) Côté demande/productivité : accès à un éventail plus vaste d'inputs. (2) Côté incitations/offre : marché plus grand pour vendre les brevets, ce qui augmente le profit de R&D et stimule l'innovation."
+    },
+    {
+      "t": "Romer · variété",
+      "y": [
+        "2022",
+        "2023"
+      ],
+      "top": 1,
+      "q": "Dans le modèle à variété de biens, une ouverture aux échanges extérieurs permet :",
+      "o": [
+        "D'accroître les exportations de biens intermédiaires",
+        "D'accroître les importations de biens intermédiaires",
+        "À la fois d'accroître les exportations ET les importations de biens intermédiaires",
+        "Ni d'accroître les exportations, ni d'accroître les importations de biens intermédiaires"
+      ],
+      "c": 3,
+      "w": "⚠️ <b>Le piège historique de l'examen !</b> Les trois autres propositions relèvent d'une vision comptable/mercantiliste. Dans le modèle de Romer, le gain ne vient pas du solde commercial, mais de l'expansion du <b>catalogue de variétés</b> et de la rentabilité de la R&D."
+    },
+    {
+      "t": "Romer · variété",
+      "y": [
+        "2020",
+        "2024"
+      ],
+      "top": 1,
+      "q": "Dans un modèle à variété de biens, les conséquences d'une guerre commerciale mondiale généralisée (hausse des droits de douane partout) sont :",
+      "o": [
+        "Néfaste pour la croissance de tous les pays",
+        "Bénéfique pour les pays qui imposent les droits les plus élevés",
+        "Neutre car les monnaies s'ajustent",
+        "Bénéfique uniquement pour les pays émergents"
+      ],
+      "c": 0,
+      "w": "En taxant les échanges, chaque pays réduit la taille effective du marché pour ses innovateurs et prive son secteur final des variétés étrangères. Le taux de croissance mondial s'effondre pour tout le monde."
+    },
+    {
+      "t": "Romer · variété",
+      "y": [
+        "P"
+      ],
+      "top": 0,
+      "q": "Dans l'exercice 'Social optimum in Romer', comment se compare la quantité x* choisie par le planificateur à celle du marché x_m ?",
+      "o": [
+        "x* = L₁ α^(1/(1-α)) > x_m = L₁ α^(2/(1-α))",
+        "x* < x_m",
+        "x* = x_m",
+        "x* = 0"
+      ],
+      "c": 0,
+      "w": "Le planificateur social élimine la marge de monopole (p = 1 au coût marginal). Il produit donc une quantité de chaque variété intermédiaire <code>x* = L₁ α^(1/(1-α))</code>, strictement supérieure à celle du monopoleur privé."
+    },
+    {
+      "t": "Romer · variété",
+      "y": [
+        "P"
+      ],
+      "top": 0,
+      "q": "Quel type de différenciation des produits caractérise le modèle de Romer (1990) ?",
+      "o": [
+        "Une différenciation horizontale (accumulation de nouveaux produits sans élimination des anciens)",
+        "Une différenciation verticale (amélioration de la qualité chassant les anciens produits)",
+        "Une différenciation spatiale de Hotelling",
+        "Une homogénéité parfaite"
+      ],
+      "c": 0,
+      "w": "Dans Romer, les variétés s'additionnent les unes aux autres : les nouveaux biens ne détruisent pas les anciens (différenciation <b>horizontale</b>). C'est le modèle d'Aghion-Howitt qui introduira la différenciation <b>verticale</b>."
+    },
+    {
+      "t": "Destruction créatrice",
+      "y": [
+        "2020"
+      ],
+      "top": 1,
+      "q": "Chez Aghion et Howitt (1992), quel mécanisme soutient le moteur de la croissance de long terme ?",
+      "o": [
+        "La destruction créatrice : les innovations radicales créent de nouveaux biens intermédiaires plus performants qui rendent obsolètes et détruisent les rentes des anciens producteurs",
+        "L'accumulation passive de capital physique",
+        "L'augmentation de la fertilité démographique",
+        "La protection douanière des monopoles nationaux"
+      ],
+      "c": 0,
+      "w": "Inspiré de Joseph Schumpeter (1942), le modèle repose sur la différenciation verticale. L'innovateur réussit un saut qualitatif drastique A_t = γ A_(t-1) et évince complètement l'ancien monopoleur du marché."
+    },
+    {
+      "t": "Destruction créatrice",
+      "y": [
+        "2020"
+      ],
+      "top": 0,
+      "q": "Dans le modèle schumpétérien du cours, d'où provient la rémunération de l'activité de recherche ?",
+      "o": [
+        "D'une rente de monopole temporaire dans le secteur du bien intermédiaire",
+        "D'une rente de monopole dans le secteur du bien final",
+        "De subventions d'État systématiques",
+        "D'un impôt sur les ménages"
+      ],
+      "c": 0,
+      "w": "Le secteur final est en concurrence parfaite (profit nul). Seul le secteur du bien intermédiaire, protégé par brevet, dégage un surprofit Π = π A_t L qui rémunère l'entrepreneur victorieux."
+    },
+    {
+      "t": "Destruction créatrice",
+      "y": [
+        "2021"
+      ],
+      "top": 1,
+      "q": "Dans le modèle de destruction créatrice, l'équilibre décentralisé mène-t-il TOUJOURS à un sous-investissement en R&D par rapport à l'optimum social ?",
+      "o": [
+        "Non, pas nécessairement : en présence de l'externalité négative de 'vol d'affaires' (business stealing), il peut y avoir sur-investissement privé en recherche",
+        "Oui, toujours, comme dans le modèle de Romer",
+        "Non, l'investissement privé est toujours nul sans État",
+        "Oui, car il n'y a que des externalités positives"
+      ],
+      "c": 0,
+      "w": "<b>Subtilité majeure du cours :</b> L'innovateur ne prend pas en compte la perte infligée à l'ancien monopoleur qu'il détruit (business stealing). Cette externalité négative pousse à <b>trop</b> de recherche. Le marché privé peut donc investir plus ou moins que l'optimum social."
+    },
+    {
+      "t": "Destruction créatrice",
+      "y": [
+        "2021"
+      ],
+      "top": 1,
+      "q": "Quelles sont les TROIS externalités générées par une innovation dans le modèle d'Aghion-Howitt ?",
+      "o": [
+        "Appropriabilité incomplète (+), spillovers de connaissances intertemporels (+) et destruction de la rente de l'innovateur précédent / vol d'affaires (-)",
+        "Externalité de réseau, pollution et inflation",
+        "Épargne, éducation et fiscalité",
+        "Monopole, libre-échange et dépréciation"
+      ],
+      "c": 0,
+      "w": "Les 3 externalités sont : (1) Le surplus consommateur non capté (+), (2) La base technologique accrue pour les générations futures (+), (3) La destruction de valeur de l'entreprise en place évincée (-)."
+    },
+    {
+      "t": "Destruction créatrice",
+      "y": [
+        "2019",
+        "2020",
+        "2022",
+        "2023",
+        "2024"
+      ],
+      "top": 1,
+      "q": "Quelle politique recommanderiez-vous sur le marché du travail dans une économie tirée par la destruction créatrice ?",
+      "o": [
+        "Assurer et protéger les personnes/travailleurs (allocations chômage, reconversion, formation) plutôt que de protéger les emplois obsolètes",
+        "Interdire les licenciements économiques",
+        "Subventionner les firmes en faillite pour éviter les destructions d'emplois",
+        "Supprimer les indemnités chômage"
+      ],
+      "c": 0,
+      "w": "<b>Question star de l'examen (5 fois en 6 ans) !</b> Protéger les emplois bloquerait la réallocation du travail vers les secteurs innovants. Il faut adopter la <b>flexisécurité</b> : protéger les travailleurs (formation, filets de sécurité) et laisser mourir les entreprises obsolètes."
+    },
+    {
+      "t": "Destruction créatrice",
+      "y": [
+        "2020"
+      ],
+      "top": 0,
+      "q": "Quelle est la relation empirique et théorique entre le degré de concurrence sur le marché des biens et la croissance chez Aghion et al. (2005) ?",
+      "o": [
+        "Une courbe en U inversé",
+        "Une relation strictement linéaire croissante",
+        "Une relation strictement décroissante",
+        "Aucune relation"
+      ],
+      "c": 0,
+      "w": "Trop peu de concurrence : les firmes en place dorment sur leurs rentes. Trop de concurrence : les rentes post-innovation s'effondrent, décourageant la recherche. L'innovation est maximale à un niveau <b>intermédiaire</b> de concurrence ('échapper à la concurrence')."
+    },
+    {
+      "t": "Destruction créatrice",
+      "y": [
+        "P"
+      ],
+      "top": 1,
+      "q": "Dans le modèle d'Aghion-Howitt du cours, quelle est l'expression de l'espérance du taux de croissance de l'économie g ?",
+      "o": [
+        "g = μ · (γ - 1)",
+        "g = μ · γ",
+        "g = λ · L",
+        "g = (γ - 1) / μ"
+      ],
+      "c": 0,
+      "w": "À chaque période, avec la probabilité μ le projet réussit et la productivité augmente de (γ - 1)%, et avec probabilité (1 - μ) elle stagne. L'espérance du taux de croissance est donc <code>g = E(g_A) = μ(γ - 1)</code>."
+    },
+    {
+      "t": "Destruction créatrice",
+      "y": [
+        "P"
+      ],
+      "top": 0,
+      "q": "Dans ce modèle, de quoi dépend la probabilité d'innovation d'équilibre μ ?",
+      "o": [
+        "De l'efficacité de la recherche λ, de la taille de la population L et de la part de profit π",
+        "Du taux d'actualisation uniquement",
+        "Du taux de dépréciation du capital",
+        "Du salaire agricole"
+      ],
+      "c": 0,
+      "w": "On démontre que <code>μ = λ^(1/(1-σ)) · (σ·λ·π·L)^(σ/(1-σ))</code>. La probabilité d'innover augmente avec l'efficacité des chercheurs λ, la rente espérée π et la taille du marché L."
+    },
+    {
+      "t": "Destruction créatrice",
+      "y": [
+        "P"
+      ],
+      "top": 0,
+      "q": "Selon Acemoglu, Aghion et Zilibotti (2006), quelles institutions conviennent à une économie 'à la frontière technologique' vs 'en rattrapage' ?",
+      "o": [
+        "Frontière : concurrence vive, flexibilité et capital-risque ; Rattrapage : grandes firmes, relations de long terme banques-entreprises et investissement lourd",
+        "Frontière : monopoles publics ; Rattrapage : dérégulation totale",
+        "Les mêmes institutions sont requises quel que soit le stade",
+        "Frontière : protectionnisme douanier ; Rattrapage : ouverture totale"
+      ],
+      "c": 0,
+      "w": "Loin de la frontière, on imite des technologies connues : le financement bancaire de grands conglomérats est efficace. À la frontière, on invente dans l'inconnu : il faut sélectionner les meilleurs innovateurs par la concurrence et le capital-risque."
+    },
+    {
+      "t": "Destruction créatrice",
+      "y": [
+        "P"
+      ],
+      "top": 0,
+      "q": "Que nous apprennent les décompositions de la productivité en France (Insee, Turner 2013, Ben Hassine 2019) présentées en cours ?",
+      "o": [
+        "Le processus d'entrées-sorties d'entreprises contribue significativement à la croissance de la productivité globale (réallocation des ressources)",
+        "La sortie d'entreprises fait toujours baisser la productivité",
+        "Seules les entreprises pérennes créent de la productivité",
+        "La crise de 2008 a augmenté l'effort de R&D"
+      ],
+      "c": 0,
+      "w": "Les données empiriques confirment Schumpeter : la sortie des entreprises peu productives et l'entrée de firmes jeunes et performantes contribuent pour une part substantielle (près de la moitié) aux gains de productivité agrégée du travail."
+    },
+    {
+      "t": "Destruction créatrice",
+      "y": [
+        "P"
+      ],
+      "top": 0,
+      "q": "Quel est l'ordre de grandeur du rendement social de la R&D comparé à son rendement privé selon la littérature (Bloom et al. 2013) ?",
+      "o": [
+        "Le rendement social est estimé à 2 à 3 fois le rendement privé (20-30% privé contre 50-80% social)",
+        "Le rendement social est négatif",
+        "Le rendement social est exactement identique au rendement privé",
+        "Le rendement privé est 10 fois supérieur au rendement social"
+      ],
+      "c": 0,
+      "w": "Malgré l'ambiguïté théorique du vol d'affaires, l'évidence empirique montre massivement que les retombées positives pour la société excèdent largement le profit des entreprises, ce qui justifie les subventions (ex: Crédit Impôt Recherche)."
+    },
+    {
+      "t": "Environnement & DICE",
+      "y": [
+        "2019",
+        "2020"
+      ],
+      "top": 1,
+      "q": "La célèbre règle d'Hotelling (1931) régit :",
+      "o": [
+        "La trajectoire d'arbitrage intertemporel optimal d'une ressource naturelle épuisable non renouvelable",
+        "Le taux d'impôt sur le capital",
+        "Le taux de natalité optimal",
+        "La vitesse de substitution du travail au capital"
+      ],
+      "c": 0,
+      "w": "Elle définit la trajectoire de prix d'une ressource en quantité finie qui rend le propriétaire de la mine indifférent entre extraire aujourd'hui et placer l'argent, ou laisser la ressource dans le sous-sol."
+    },
+    {
+      "t": "Environnement & DICE",
+      "y": [
+        "2022",
+        "2024"
+      ],
+      "top": 1,
+      "q": "Dans le programme de maximisation du cours (Hamiltonien sans coût d'extraction), à quel taux croît la valeur implicite en utilité de la ressource dans le sol (λ_S) ?",
+      "o": [
+        "Au taux de préférence pour le présent ρ",
+        "Au taux d'intérêt r",
+        "Au taux d'extraction q",
+        "Au taux de croissance de la population n"
+      ],
+      "c": 0,
+      "w": "⚠️ <b>Nuance cruciale du cours :</b> Dans le Hamiltonien, la ressource en terre n'a pas de dividende physique (∂H/∂S = 0). La CPO dλ_S/dt = ρ λ_S - ∂H/∂S donne <code>λ̇_S / λ_S = ρ</code>. C'est l'option validée dans les annales officielles de Dauphine. (Le prix relatif de marché en bien final p = λ_S/λ_K croît, lui, au taux d'intérêt r)."
+    },
+    {
+      "t": "Environnement & DICE",
+      "y": [
+        "2020",
+        "2021",
+        "2022",
+        "2023"
+      ],
+      "top": 1,
+      "q": "Qu'appelle-t-on le 'frein à la croissance' (growth drag) lié aux ressources naturelles ?",
+      "o": [
+        "La perte de croissance par tête de long terme due à la quantité fixe de terre et à la finitude de la ressource épuisable",
+        "La taxe carbone imposée par les gouvernements",
+        "La baisse du PIB due à une crise bancaire",
+        "L'effet des grèves pétrolières"
+      ],
+      "c": 0,
+      "w": "Le frein mesure la différence entre la croissance théorique si la terre et les ressources croissaient au rythme de la population, et la réalité où la terre est fixe et la ressource s'épuise. Sa formule est <code>[(β + γ)n + γ q] / (1 - α)</code>."
+    },
+    {
+      "t": "Environnement & DICE",
+      "y": [
+        "2020",
+        "2021",
+        "2022",
+        "2023",
+        "2024"
+      ],
+      "top": 1,
+      "q": "Le frein à la croissance est :",
+      "o": [
+        "D'autant plus faible qu'il est facile de substituer du capital à la ressource naturelle (élasticité de substitution élevée)",
+        "D'autant plus élevé qu'il est facile de substituer du capital à la ressource",
+        "Strictement indépendant de la substituabilité",
+        "Nul dans tous les cas"
+      ],
+      "c": 0,
+      "w": "Si le capital accumulable se substitue aisément à l'énergie (élasticité ≥ 1), la rareté de la ressource est indolore. Si la substitution est difficile (élasticité < 1), le frein s'accroît avec le temps et converge vers n + q, provoquant un déclin du PIB par tête."
+    },
+    {
+      "t": "Environnement & DICE",
+      "y": [
+        "P"
+      ],
+      "top": 0,
+      "q": "Que répond la théorie néoclassique (modèle DHSS : Dasgupta, Heal, Solow, Stiglitz) aux prédictions d'effondrement du Rapport Meadows (1972) ?",
+      "o": [
+        "Une croissance soutenue reste possible grâce à la substitution des facteurs, au progrès technique augmentant l'efficacité des ressources et aux rendements d'échelle constants",
+        "L'effondrement est inévitable et doit intervenir avant 2000",
+        "Il faut arrêter immédiatement toute activité industrielle",
+        "Le marché financier élimine instantanément la rareté"
+      ],
+      "c": 0,
+      "w": "Le modèle DHSS montre que la finitude des ressources physiques n'implique pas la fin de la croissance si le progrès technique permet de produire toujours plus de valeur avec moins de matière."
+    },
+    {
+      "t": "Environnement & DICE",
+      "y": [
+        "P"
+      ],
+      "top": 1,
+      "q": "Dans un modèle AK où la production requiert une ressource épuisable (Y = A K R^γ avec R/S = q), quel est le destin de l'économie ?",
+      "o": [
+        "Le taux de croissance du capital devient inévitablement négatif et tend vers -δ : l'économie disparaît progressivement",
+        "L'économie converge vers un état stationnaire stable",
+        "La croissance devient infinie",
+        "Le taux d'intérêt augmente à l'infini"
+      ],
+      "c": 0,
+      "w": "Comme R s'épuise au taux q (R(t) → 0), le terme sAR^γ s'annule avec le temps. Le taux de croissance du capital g_K = sAR^γ - δ plonge sous zéro et tend vers -δ : l'accumulation de capital s'effondre."
+    },
+    {
+      "t": "Environnement & DICE",
+      "y": [
+        "P"
+      ],
+      "top": 0,
+      "q": "Dans le modèle schumpétérien avec ressource épuisable du cours, à quelle condition la croissance économique de long terme reste-t-elle positive ?",
+      "o": [
+        "Si l'emploi en recherche L_R > (β q) / [(1 - α)(γ - 1)λ]",
+        "Si la population mondiale diminue",
+        "Si le taux de dépréciation est nul",
+        "Si la taxe carbone est égale à 100%"
+      ],
+      "c": 0,
+      "w": "La croissance de la PTF générée par les chercheurs doit être supérieure au frein de l'épuisement : <code>g_Y = (γ - 1)λ L_R - [β/(1-α)]q > 0</code>. Il faut une R&D suffisamment puissante pour compenser la rareté énergétique."
+    },
+    {
+      "t": "Environnement & DICE",
+      "y": [
+        "2022"
+      ],
+      "top": 0,
+      "q": "Qu'est-ce qu'une innovation 'propre' selon la terminologie du cours ?",
+      "o": [
+        "Une innovation qui permet d'économiser de l'énergie / de réduire les émissions pour un niveau d'output donné",
+        "Une innovation développée par le secteur public",
+        "Une innovation qui ne requiert aucun capital",
+        "Une innovation sans brevet"
+      ],
+      "c": 0,
+      "w": "Une innovation propre permet d'économiser la ressource naturelle ou de remplacer une technologie carbonée par une technologie neutre en carbone."
+    },
+    {
+      "t": "Environnement & DICE",
+      "y": [
+        "P"
+      ],
+      "top": 1,
+      "q": "Qu'appelle-t-on le 'paradoxe vert' (ou effet Dasgupta-Stiglitz) lors de l'annonce du déploiement futur d'une énergie de substitution propre ?",
+      "o": [
+        "Les propriétaires de ressources fossiles anticipent la chute de la demande future et extraient plus vite aujourd'hui, augmentant temporairement les émissions",
+        "Les énergies renouvelables polluent plus que le charbon",
+        "La taxe carbone enrichit les pays pétroliers",
+        "Les ménages consomment moins d'électricité"
+      ],
+      "c": 0,
+      "w": "Si les détenteurs de pétrole savent que leur ressource ne vaudra plus rien dans 20 ans, leur rente de rareté s'effondre : ils ont intérêt à liquider leurs réserves immédiatement sur le marché, ce qui accélère le réchauffement à court terme."
+    },
+    {
+      "t": "Environnement & DICE",
+      "y": [
+        "P"
+      ],
+      "top": 0,
+      "q": "Dans la calibration du modèle de Solow avec ressources du cours (α=20%, β=10%, γ=10%, n=1%, q=0.5%), quelle est la valeur du frein à la croissance ?",
+      "o": [
+        "Environ 0.31% par an",
+        "Environ 3.1% par an",
+        "Environ 1.5% par an",
+        "Moins de 0.01% par an"
+      ],
+      "c": 0,
+      "w": "Calcul direct : <code>frein = [(0.10 + 0.10)·0.01 + 0.10·0.005] / (1 - 0.20) = [0.0020 + 0.0005] / 0.80 = 0.0025 / 0.80 = 0.003125</code>, soit environ <b>0.31% par an</b>."
+    },
+    {
+      "t": "Environnement & DICE",
+      "y": [
+        "P"
+      ],
+      "top": 1,
+      "q": "Qui est William Nordhaus et pourquoi a-t-il reçu le Prix Nobel d'économie en 2018 (conjointement avec Paul Romer) ?",
+      "o": [
+        "Pour avoir intégré le changement climatique dans l'analyse macroéconomique à long terme avec le modèle DICE",
+        "Pour ses travaux sur les bulles spéculatives",
+        "Pour la théorie des contrats financiers",
+        "Pour l'analyse du commerce international"
+      ],
+      "c": 0,
+      "w": "Nordhaus (Yale) a développé le modèle intégré climat-économie (DICE : Dynamic Integrated Climate-Economy), étendant le cadre de Ramsey pour y incorporer les rétroactions du climat sur l'économie."
+    },
+    {
+      "t": "Environnement & DICE",
+      "y": [
+        "P"
+      ],
+      "top": 1,
+      "q": "Dans le modèle DICE 2023, comment la production nette Y(t) est-elle formulée à partir du PIB brut Y_gross ?",
+      "o": [
+        "Y(t) = [1 - Λ(t)] · [1 - Ω(t)] · A(t) K(t)^α L(t)^(1-α)",
+        "Y(t) = Y_gross - Taux d'impôt",
+        "Y(t) = A(t) K(t)^α L(t)^(1-α) + Dommages",
+        "Y(t) = (1 - Ω(t)) / Λ(t)"
+      ],
+      "c": 0,
+      "w": "La production nette est amputée de deux facteurs : <code>Λ(t)</code> représente les <b>coûts d'abattement</b> (efforts de réduction des émissions), et <code>Ω(t)</code> représente la <b>fonction de dommage climatique</b> liée à la hausse des températures."
+    },
+    {
+      "t": "Environnement & DICE",
+      "y": [
+        "P"
+      ],
+      "top": 0,
+      "q": "Dans DICE 2023, quelle perte de PIB mondial simule la fonction de dommage de référence pour un réchauffement de 3°C par rapport à l'ère préindustrielle ?",
+      "o": [
+        "3.1% du PIB",
+        "25% du PIB",
+        "0.5% du PIB",
+        "50% du PIB"
+      ],
+      "c": 0,
+      "w": "DICE 2023 calibre les dommages à 3.1% de perte de PIB à +3°C, et 7% à +4.5°C. Les versions antérieures étaient plus optimistes (1.3% dans DICE 1992, 2.1% dans DICE 2016). D'autres études empiriques (ex: Bilal & Känzig 2024) estiment ces pertes jusqu'à 44%."
+    },
+    {
+      "t": "Environnement & DICE",
+      "y": [
+        "P"
+      ],
+      "top": 1,
+      "q": "Qu'appelle-t-on le 'Coût Social du Carbone' (CSC) ?",
+      "o": [
+        "La valeur monétisée des dommages économiques futurs causés par l'émission d'une tonne métrique supplémentaire de CO2 aujourd'hui",
+        "Le prix de vente du pétrole brut par l'OPEP",
+        "La subvention versée aux fabricants de panneaux solaires",
+        "Le coût de dépollution immédiate d'un site industriel"
+      ],
+      "c": 0,
+      "w": "Le CSC agrège en valeur actuelle tous les dommages climatiques causés à la société par 1 tonne additionnelle de CO2. C'est l'indicateur pivot pour déterminer le niveau optimal de la taxe carbone pigouvienne."
+    },
+    {
+      "t": "Environnement & DICE",
+      "y": [
+        "P"
+      ],
+      "top": 1,
+      "q": "Quelle est l'influence du taux d'actualisation sur la valeur estimée du Coût Social du Carbone ?",
+      "o": [
+        "Plus le taux d'actualisation est faible, plus le CSC est élevé (car on accorde un poids fort aux dommages subis par les générations lointaines)",
+        "Plus le taux d'actualisation est faible, plus le CSC est faible",
+        "Le taux d'actualisation n'a aucun impact mathématique sur le CSC",
+        "Le CSC est toujours nul avec un taux constant"
+      ],
+      "c": 0,
+      "w": "Les dommages climatiques se produisent dans 50 à 100 ans. Si on actualise à R=1%, la valeur actuelle de ces dommages explose (CSC à 485$/t dans DICE 2023). Si on actualise à R=5%, les dommages lointains deviennent négligeables (CSC à 32$/t)."
+    },
+    {
+      "t": "Environnement & DICE",
+      "y": [
+        "P"
+      ],
+      "top": 0,
+      "q": "Quelle différence conceptuelle sépare un impact climatique sous forme 'd'effet de niveau' vs 'effet de croissance' ?",
+      "o": [
+        "L'effet de niveau réduit la production tant que le climat est dégradé mais la croissance reprend au taux initial une fois stabilisé ; l'effet de croissance réduit de façon permanente le taux de croissance lui-même",
+        "L'effet de niveau ne touche que l'agriculture",
+        "L'effet de croissance est toujours positif",
+        "Ce sont deux termes strictement synonymes"
+      ],
+      "c": 0,
+      "w": "Dans un effet de niveau (DICE classique), un réchauffement permanent abaisse le niveau du sentier du PIB. Dans un effet de croissance pure, le taux de progression annuel du PIB est amputé de manière persistante, entraînant des pertes cumulées vertigineuses à long terme."
+    },
+    {
+      "t": "Environnement & DICE",
+      "y": [
+        "P"
+      ],
+      "top": 0,
+      "q": "Dans DICE 2023, que désigne la 'technologie de secours' (backstop technology) dans la fonction des coûts d'abattement ?",
+      "o": [
+        "Une technologie de décarbonation complète permettant d'atteindre zéro émission nette, dont le coût décroît avec le temps (environ 1% par an)",
+        "Le recours d'urgence au charbon",
+        "Une centrale nucléaire de secours",
+        "La fermeture temporaire des aéroports"
+      ],
+      "c": 0,
+      "w": "La backstop technology (calibrée à 515$/tCO2 en 2050) plafonne le coût marginal de dépollution : c'est le coût maximal au-delà duquel l'économie bascule sur une solution 100% propre (remplacement intégral des fossiles)."
+    },
+    {
+      "t": "Finance",
+      "y": [
+        "2022",
+        "2024"
+      ],
+      "top": 1,
+      "q": "Dans les modèles théoriques d'Aghion-Howitt étudiés au chapitre 6, par quels canaux précis le secteur financier stimule-t-il la croissance ?",
+      "o": [
+        "Le screening ex-ante des projets innovants et la réduction de l'aléa moral par le contrôle des emprunteurs",
+        "La création monétaire sans limite",
+        "La collecte d'un volume infini d'épargne",
+        "La création monétaire sans limite et la collecte d'un volume infini d'épargne"
+      ],
+      "c": 0,
+      "w": "Le chapitre 6 formalise mathématiquement <b>deux rôles</b> : (1) Le screening (détection des bons projets de R&D), (2) La réduction de l'aléa moral (empêcher l'entrepreneur de détourner les fonds ou de cacher son succès). L'augmentation brute de l'épargne n'est pas modélisée."
+    },
+    {
+      "t": "Finance",
+      "y": [
+        "2019",
+        "2022",
+        "2024"
+      ],
+      "top": 1,
+      "q": "Quel mode d'intermédiation financière est recommandé pour soutenir l'innovation dans une économie située à la frontière technologique ?",
+      "o": [
+        "Le capital-risque (Venture Capital) et les marchés de capitaux, capables de financer des projets hautement risqués sans collatéral tangible",
+        "Le crédit bancaire classique",
+        "Les subventions publiques d'entreprises publiques",
+        "L'autofinancement exclusif"
+      ],
+      "c": 0,
+      "w": "À la frontière, le risque d'échec est maximal et les actifs sont immatériels : les banques traditionnelles refusent de prêter faute d'hypothèques. Les fonds de capital-risque, qui partagent les plus-values en capital, sont indispensables."
+    },
+    {
+      "t": "Finance",
+      "y": [
+        "P"
+      ],
+      "top": 1,
+      "q": "Dans le modèle avec aléa moral et contrôle, lorsque la contrainte de crédit est saturée (mordante), de quoi dépend le taux de croissance g^h ?",
+      "o": [
+        "Du degré de protection des créanciers/efficacité du contrôle h et de la richesse initiale w, mais PAS de la rentabilité intrinsèque de la recherche π",
+        "De la rentabilité π uniquement",
+        "Du taux d'inflation",
+        "Du nombre de banques centrales"
+      ],
+      "c": 0,
+      "w": "Résultat frappant du modèle : <code>g^h = (γ - 1)√(2 ν ω / γ Ψ)</code>. La rente de monopole π ne figure pas dans la formule ! Ce qui bride l'innovation, ce n'est pas le manque de rentabilité des idées, c'est l'incapacité à emprunter (rationnement du crédit)."
+    },
+    {
+      "t": "Finance",
+      "y": [
+        "P"
+      ],
+      "top": 0,
+      "q": "Dans le modèle avec screening ex-ante, quel est l'effet d'une baisse du coût de screening unitaire des banques f ?",
+      "o": [
+        "Elle augmente le rendement net de la recherche et élève le taux de croissance de l'économie",
+        "Elle réduit la croissance car les banques font moins de marge",
+        "Elle n'a aucun effet car la recherche est aléatoire",
+        "Elle pousse les firmes à la faillite"
+      ],
+      "c": 0,
+      "w": "La formule du taux de croissance est <code>g = [π / ((1 + f/θ)Ψ)] · (γ - 1)</code>. Plus le système bancaire est efficace à trier les dossiers (f faible), moins de ressources sont gaspillées en frais d'audit, et plus la croissance s'élève."
+    },
+    {
+      "t": "Finance",
+      "y": [
+        "P"
+      ],
+      "top": 1,
+      "q": "Que concluent les travaux empiriques récents sur la relation entre la taille du secteur financier (crédit privé/PIB) et la croissance économique ?",
+      "o": [
+        "La relation est non linéaire : positive pour les pays en développement et émergents, mais elle s'affaiblit puis devient négative pour les pays riches au-delà d'un ratio crédit/PIB de 110-150%",
+        "Elle est strictement linéaire et positive pour tous les pays (plus de finance = toujours plus de croissance)",
+        "Elle est constamment négative",
+        "Il n'y a aucune corrélation mesurable"
+      ],
+      "c": 0,
+      "w": "Avant 2008 prévalait le dogme 'more finance more growth' (Levine, Beck). Les études post-crise montrent un seuil de saturation (110-150% du PIB) au-delà duquel un secteur bancaire hypertrophié nuit à l'économie réelle."
+    },
+    {
+      "t": "Finance",
+      "y": [
+        "P"
+      ],
+      "top": 0,
+      "q": "Laquelle des propositions suivantes explique pourquoi une finance hypertrophiée peut nuire à la croissance des pays avancés ?",
+      "o": [
+        "Elle extrait des rentes excessives, attire les meilleurs talents au détriment des secteurs productifs (Philippon) et finance surtout des crédits immobiliers aux ménages peu porteurs de gains de productivité",
+        "Elle empêche les ménages de consommer",
+        "Elle élimine la concurrence sur le marché des biens",
+        "Elle impose des taux d'intérêt négatifs"
+      ],
+      "c": 0,
+      "w": "Les analyses de Philippon, Bolton et Arcand montrent que l'expansion financière récente a principalement alimenté la spéculation sur actifs existants et les prêts hypothécaires aux ménages, tout en captant une part disproportionnée des diplômés en ingénierie/sciences."
+    },
+    {
+      "t": "Finance",
+      "y": [
+        "P"
+      ],
+      "top": 1,
+      "q": "Dans quel cas les inégalités de revenu pénalisent-elles la croissance économique selon les modèles du cours ?",
+      "o": [
+        "Lorsqu'il existe des imperfections financières (asymétries d'information, contraintes de crédit) empêchant les ménages modestes de financer des investissements rentables (éducation, capital humain)",
+        "Dans tous les cas sans exception",
+        "Jamais, les inégalités sont toujours optimales pour stimuler l'effort",
+        "Uniquement si le taux d'épargne est nul"
+      ],
+      "c": 0,
+      "w": "Avec des marchés financiers parfaits, tout projet rentable (études, création d'entreprise) trouve preneur. Mais si l'accès au crédit requiert du collatéral que les pauvres n'ont pas, des talents sont gâchés, ce qui justifie l'éducation publique gratuite et la redistribution."
+    },
+    {
+      "t": "Finance",
+      "y": [
+        "P"
+      ],
+      "top": 0,
+      "q": "Selon Luigi Zingales ('Does Finance Benefit Society', 2015), pourquoi observe-t-on la vente de produits financiers très complexes aux clients non sophistiqués ?",
+      "o": [
+        "Pour extraire des rentes grâce à l'asymétrie d'information, la complexité permettant de masquer des marges et frais élevés",
+        "Pour optimiser la couverture contre l'inflation des ménages",
+        "Pour respecter les normes prudentielles de Bâle",
+        "Pour éliminer le risque systémique"
+      ],
+      "c": 0,
+      "w": "Zingales cite des études (ex: Celerier et Vallee 2013) montrant que les produits structurés les plus inutilement complexes sont ceux qui affichent les marges les plus grasses et qui sont vendus aux épargnants les moins avertis."
+    },
+    {
+      "t": "Finance",
+      "y": [
+        "P"
+      ],
+      "top": 0,
+      "q": "Quel rôle Joseph Schumpeter attribuait-il au banquier en 1912 ?",
+      "o": [
+        "'Au nom de la société, le banquier autorise l'entrepreneur à innover'",
+        "Le banquier est un simple comptable passif de l'épargne",
+        "Le banquier freine systématiquement le progrès technique",
+        "Le banquier ne doit prêter qu'à l'État"
+      ],
+      "c": 0,
+      "w": "Pour Schumpeter, la création de pouvoir d'achat par le crédit est le mécanisme essentiel qui arrache les ressources aux usages routiniers pour les mettre entre les mains des entrepreneurs innovateurs."
+    },
+    {
+      "t": "Finance",
+      "y": [
+        "P"
+      ],
+      "top": 0,
+      "q": "Pourquoi le ratio agrégé 'Crédit bancaire / PIB' est-il un indicateur imparfait du développement financier ?",
+      "o": [
+        "Parce qu'il agrège quantitativement la dette sans distinguer le crédit productif aux entreprises du crédit immobilier aux ménages, ni mesurer la qualité de l'allocation",
+        "Parce qu'il ne prend pas en compte les billets de banque",
+        "Parce que le PIB est calculé trimestriellement",
+        "Parce que les banques centrales prêtent aux États"
+      ],
+      "c": 0,
+      "w": "Le ratio mesure la quantité de dette, pas son efficacité allocative. L'explosion du crédit aux ménages depuis 2000 a gonflé ce ratio dans les pays occidentaux sans générer de surcroît de productivité industrielle."
+    },
+    {
+      "t": "Histoire & Trappes",
+      "y": [
+        "2019"
+      ],
+      "top": 1,
+      "q": "Selon la théorie unifiée de la croissance d'Oded Galor, pourquoi le PIB par tête est-il resté quasi stagnant durant toute l'ère malthusienne (avant 1800) ?",
+      "o": [
+        "Parce que tout gain de productivité agricole élevait temporairement le revenu, ce qui stimulait la fécondité et augmentait la population, ramenant le revenu par tête au niveau de subsistance",
+        "Parce qu'il n'y avait absolument aucun progrès technique",
+        "Parce que le commerce mondial était interdit",
+        "À cause des impôts des seigneurs"
+      ],
+      "c": 0,
+      "w": "C'est le mécanisme malthusien formalisé par Galor : n = n(y) avec n' > 0. L'innovation augmentait la population totale (taille de l'économie), mais la fixité de la terre agricole diluait la productivité par tête, bloquant le niveau de vie à y*."
+    },
+    {
+      "t": "Histoire & Trappes",
+      "y": [
+        "2019"
+      ],
+      "top": 1,
+      "q": "Quel fut l'effet de la Grande Peste Noire (1348-1350) sur les salaires réels agricoles en Angleterre selon les données historiques de Clark ?",
+      "o": [
+        "Une forte hausse des salaires réels agricoles",
+        "Un effondrement des salaires réels",
+        "Aucun effet sur le niveau de vie",
+        "Une inflation éliminant toute monnaie"
+      ],
+      "c": 0,
+      "w": "L'épidémie ayant décimé un tiers de la population active, la rareté du travail par rapport à la terre disponible a fait bondir la productivité marginale du travail et les salaires réels, confirmant la mécanique malthusienne."
+    },
+    {
+      "t": "Histoire & Trappes",
+      "y": [
+        "2021",
+        "2024"
+      ],
+      "top": 1,
+      "q": "Dans le modèle de transition de Galor (chapitre 7), quel déclencheur permet à l'activité manufacturière d'émerger et de démarrer l'industrialisation ?",
+      "o": [
+        "L'accumulation de progrès technique A qui rend enfin les profits de l'industrie manufacturière positifs au regard du salaire agricole d'équilibre",
+        "L'ouverture des frontières maritimes",
+        "Une décision autoritaire de l'armée",
+        "La découverte des mines d'or"
+      ],
+      "c": 0,
+      "w": "La condition de rentabilité de l'industrie est Π_m = (A - w̃) L_m > 0. Tant que la technologie A est faible, les manufactures ne peuvent pas payer le salaire d'équilibre agricole. Dès que A dépasse le seuil critique w̃ = (1-β)y*, l'industrie embauche et absorbe le surplus de main-d'œuvre."
+    },
+    {
+      "t": "Histoire & Trappes",
+      "y": [
+        "P"
+      ],
+      "top": 1,
+      "q": "Quelles sont les 5 étapes de la croissance économique selon Walt Whitman Rostow (1963) ?",
+      "o": [
+        "1. Société traditionnelle, 2. Préconditions au décollage, 3. Décollage (take-off), 4. Marche vers la maturité, 5. Ère de la consommation de masse",
+        "1. Chasse, 2. Élevage, 3. Commerce, 4. Industrie, 5. Numérique",
+        "1. Féodalisme, 2. Mercantilisme, 3. Capitalisme, 4. Socialisme, 5. Communisme",
+        "1. Solow, 2. Ramsey, 3. AK, 4. Romer, 5. DICE"
+      ],
+      "c": 0,
+      "w": "La fresque historique célèbre de Rostow décrit la trajectoire linéaire que chaque pays est censé traverser. L'étape 3 du 'take-off' (décollage) exige un bond du taux d'investissement productif à plus de 10% du PIB."
+    },
+    {
+      "t": "Histoire & Trappes",
+      "y": [
+        "2021",
+        "2024"
+      ],
+      "top": 1,
+      "q": "Qu'appelle-t-on spécifiquement la 'trappe à revenu médian' (middle-income trap) ?",
+      "o": [
+        "Le fait que de nombreux pays émergents ayant réussi leur rattrapage initial s'enlisent autour de 10 000 - 15 000 $ de PIB par habitant et peinent à rejoindre le club des pays riches",
+        "La difficulté des pays très pauvres à atteindre le niveau de subsistance",
+        "Le risque pour un pays riche d'avoir une récession temporaire",
+        "L'égalité des salaires dans la classe moyenne"
+      ],
+      "c": 0,
+      "w": "Les recettes du rattrapage facile (accumulation de capital, transfert de main-d'œuvre des champs vers les usines d'assemblage) s'épuisent. Pour franchir le cap des 30 000 $, le pays doit basculer vers l'innovation propre, l'enseignement supérieur et des institutions inclusives."
+    },
+    {
+      "t": "Histoire & Trappes",
+      "y": [
+        "P"
+      ],
+      "top": 0,
+      "q": "Selon les travaux de Eichengreen, Park et Shin (2013), à quels seuils de PIB par habitant observe-t-on le plus fréquemment des ralentissements brutaux de croissance ?",
+      "o": [
+        "Autour de 10 000 $ puis 15 000 $ de PIB par tête",
+        "À 1 000 $ de PIB par tête",
+        "À 50 000 $ de PIB par tête",
+        "Il n'y a aucun seuil identifiable"
+      ],
+      "c": 0,
+      "w": "Leur étude empirique sur probit montre deux pics de ralentissement très marqués autour de 10 000$ et 15 000$. Ce risque est considérablement réduit si le pays compte une part élevée de diplômés du supérieur et exporte des produits de haute technologie."
+    },
+    {
+      "t": "Histoire & Trappes",
+      "y": [
+        "P"
+      ],
+      "top": 1,
+      "q": "La notion de 'trappe à pauvreté' au niveau macroéconomique est-elle validée par les données empiriques des 50 dernières années (Easterly, Kraay & McKenzie) ?",
+      "o": [
+        "Non : la stagnation absolue est rare ; en moyenne le quintile des pays les plus pauvres en 1960 a connu une croissance moyenne comparable aux autres (2.2% par an)",
+        "Oui : tous les pays pauvres de 1960 sont restés au même niveau de PIB",
+        "Oui : aucun pays pauvre n'a pu décoller sans aide massive",
+        "La Banque Mondiale interdit cette comparaison"
+      ],
+      "c": 0,
+      "w": "Le cours montre (tableau de Penn World Tables) que les pays du quintile le plus pauvre en 1960 ont crû en moyenne à 2.2% par an entre 1960 et 2010. Les blocages persistants sont rares (Burundi, Haïti, RDC) et relèvent d'institutions défaillantes ou de guerres, non d'un piège purement capitalistique."
+    },
+    {
+      "t": "Histoire & Trappes",
+      "y": [
+        "P"
+      ],
+      "top": 0,
+      "q": "Pourquoi la théorie de la trappe à pauvreté fondée sur la 'nutrition insuffisante' (< 2400 kcal/jour) est-elle rejetée par les données microéconomiques ?",
+      "o": [
+        "Parce que le coût monétaire pour acheter 2400 calories est très bas dans la plupart des pays (bien inférieur à 21 centimes par jour)",
+        "Parce que les calories ne jouent aucun rôle sur la productivité",
+        "Parce que personne ne souffre de malnutrition",
+        "Parce que les ménages pauvres n'achètent que de l'électronique"
+      ],
+      "c": 0,
+      "w": "Comme le montrent Banerjee et Duflo (2011), même avec des revenus très faibles, les individus disposent d'assez d'argent pour acheter les calories nécessaires s'ils le souhaitent ; la pauvreté ne s'auto-entretient pas par une trappe calorique physiologique rigide."
+    },
+    {
+      "t": "Histoire & Trappes",
+      "y": [
+        "P"
+      ],
+      "top": 0,
+      "q": "D'après Acemoglu et Robinson ('Why Nations Fail'), quelle est la cause profonde des pays qui restent pauvres ?",
+      "o": [
+        "Des institutions 'extractives' où les élites politiques confisquent la rente et découragent les investissements privés, par opposition à des institutions 'inclusives'",
+        "Le manque de ressources pétrolières",
+        "Le climat tropical chaud",
+        "La taille insuffisante de leur population"
+      ],
+      "c": 0,
+      "w": "Les institutions inclusives protègent la propriété, assurent l'état de droit et encouragent l'innovation. Les institutions extractives organisent la prédation par une minorité, bloquant le processus schumpétérien par crainte de perdre le pouvoir."
+    },
+    {
+      "t": "Histoire & Trappes",
+      "y": [
+        "P"
+      ],
+      "top": 0,
+      "q": "Selon Charles Jones et Peter Klenow (AER 2016), pourquoi le bien-être économique en France ou en Allemagne est-il comparable à celui des USA malgré un PIB par tête inférieur de 30% ?",
+      "o": [
+        "Grâce à une espérance de vie plus longue, une durée annuelle du travail plus faible (plus de loisirs) et des inégalités de consommation moindres",
+        "Parce que le coût de la vie est plus élevé aux USA",
+        "Parce que le PIB américain est mal calculé",
+        "Parce que l'Europe a plus d'usines sidérurgiques"
+      ],
+      "c": 0,
+      "w": "L'indice de bien-être multidimensionnel de Jones & Klenow pondère la consommation, les loisirs, les inégalités et l'espérance de vie. Le modèle social européen compense son moindre revenu par tête par une meilleure santé, moins d'heures travaillées et un filet social resserré."
+    },
+    {
+      "t": "Histoire & Trappes",
+      "y": [
+        "P"
+      ],
+      "top": 0,
+      "q": "Dans le modèle à deux secteurs (agriculture et industrie) de transition structurelle, comment évolue l'emploi agricole optimal L_a à terme ?",
+      "o": [
+        "Il devient constant à L_a = (1 - β)^(1/β), de sorte que tout le surplus démographique est transféré dans l'industrie",
+        "Il augmente jusqu'à absorber 100% de la population",
+        "Il tombe à zéro immédiatement",
+        "Il oscille sinusoïdalement"
+      ],
+      "c": 0,
+      "w": "Résultat élégant du modèle unifié : pour égaliser le salaire agricole au salaire industriel w = A, l'emploi dans l'agriculture se fixe à un plafond constant <code>L_a = (1 - β)^(1/β)</code>. Dès lors, la part relative de l'agriculture dans la population active s'effondre inévitablement."
+    },
+    {
+      "t": "Histoire & Trappes",
+      "y": [
+        "P"
+      ],
+      "top": 0,
+      "q": "Dans l'exercice de comptabilité nationale de l'introduction, un secteur automobile produit 3000 voitures à 10 000€ (dont 1000 vendues aux ménages, 1000 exportées, 1000 vendues à la sidérurgie). Comment sont comptabilisées les 1000 voitures vendues à la sidérurgie ?",
+      "o": [
+        "Comme de l'investissement productif (FBCF) car ce sont des biens d'équipement durables",
+        "Comme des consommations intermédiaires détruites dans l'année",
+        "Elles sont exclues du calcul du PIB",
+        "Comme des variations négatives de stocks"
+      ],
+      "c": 0,
+      "w": "Règle comptable intangible : un bien d'équipement durable (camion, voiture d'entreprise, machine) acquis par une entreprise pour son activité est de la <b>Formation Brute de Capital Fixe (Investissement I)</b> et NON une consommation intermédiaire."
+    }
+  ];
+
+/* ============================================================
+   ÉTAT
+   ============================================================ */
+const LS_KEY = "quizz272.v2";
+let store = { missed: [], best: null };
+try { const raw = localStorage.getItem(LS_KEY); if (raw) store = Object.assign(store, JSON.parse(raw)); } catch(e){}
+function save(){ try { localStorage.setItem(LS_KEY, JSON.stringify(store)); } catch(e){} }
+
+Q.forEach((q,i)=>{ q.id = i; });
+
+const THEMES = [...new Set(Q.map(q=>q.t))];
+const MODES = [
+  {k:"all",   n:"Tout le programme", d:"Les annales et questions probables", f:()=>Q},
+  {k:"top",   n:"Les incontournables", d:"Celles qui tombent presque chaque année", f:()=>Q.filter(q=>q.top)},
+  {k:"y2024", n:"Le quizz 2024", d:"Les questions du dernier sujet donné", f:()=>Q.filter(q=>q.y.includes("2024"))},
+  {k:"piege", n:"Les pièges", d:"Les nuances dangereuses de l'examen", f:()=>Q.filter(q=>q.p)},
+  {k:"missed",n:"Mes ratées", d:"Celles que tu as manquées la dernière fois", f:()=>Q.filter(q=>store.missed.includes(q.id))}
+];
+
+let mode = "all", theme = "", len = 16;
+let deck = [], idx = 0, answered = false;
+let pts = 0, nGood = 0, nBad = 0, nSkip = 0, log = [];
+
+const $ = s => document.querySelector(s);
+const el = {
+  start:$("#screenStart"), quiz:$("#screenQuiz"), end:$("#screenEnd"),
+  modes:$("#modes"), themeSel:$("#themeSel"), lenSel:$("#lenSel"),
+  startBtn:$("#startBtn"), poolInfo:$("#poolInfo"),
+  qTheme:$("#qTheme"), qYear:$("#qYear"), qHot:$("#qHot"), qCount:$("#qCount"),
+  qText:$("#qText"), qOpts:$("#qOpts"), fb:$("#fb"), verdict:$("#verdict"), why:$("#why"),
+  nextBtn:$("#nextBtn"), passBtn:$("#passBtn"), passWrap:$("#passWrap"),
+  chip:$("#chip"), chipVal:$("#chipVal"), prog:$("#progbar"),
+  endScore:$("#endScore"), endVerdict:$("#endVerdict"),
+  stGood:$("#stGood"), stBad:$("#stBad"), stSkip:$("#stSkip"),
+  reviewWrap:$("#reviewWrap"), reviewList:$("#reviewList"),
+  againBtn:$("#againBtn"), againMissed:$("#againMissed"), memoNote:$("#memoNote")
+};
+
+/* ---------- écran de départ ---------- */
+function buildStart(){
+  el.modes.innerHTML = "";
+  MODES.forEach(m=>{
+    const n = m.f().length;
+    const b = document.createElement("button");
+    b.className = "mode"; b.type = "button";
+    b.setAttribute("aria-pressed", String(m.k === mode));
+    b.disabled = n === 0;
+    if(n === 0) b.style.opacity = ".4";
+    b.innerHTML = `<b>${m.n}</b><em>${m.d}</em><span class="n">${n} question${n>1?"s":""}</span>`;
+    b.addEventListener("click", ()=>{ mode = m.k; buildStart(); });
+    el.modes.appendChild(b);
+  });
+  if(el.themeSel.options.length === 1){
+    THEMES.forEach(t=>{
+      const o = document.createElement("option");
+      o.value = t; o.textContent = t + " (" + Q.filter(q=>q.t===t).length + ")";
+      el.themeSel.appendChild(o);
+    });
+  }
+  const pool = pick();
+  el.poolInfo.textContent = pool.length
+    ? `${pool.length} question${pool.length>1?"s":""} disponible${pool.length>1?"s":""} · ${Math.min(pool.length, len)} tirée${Math.min(pool.length,len)>1?"s":""} au hasard · réponses mélangées`
+    : "Aucune question ne correspond à cette combinaison.";
+  el.startBtn.disabled = pool.length === 0;
+}
+function pick(){
+  let pool = MODES.find(m=>m.k===mode).f();
+  if(theme) pool = pool.filter(q=>q.t===theme);
+  return pool;
+}
+el.themeSel.addEventListener("change", e=>{ theme = e.target.value; buildStart(); });
+el.lenSel.addEventListener("change", e=>{ len = +e.target.value; buildStart(); });
+el.startBtn.addEventListener("click", start);
+el.againBtn.addEventListener("click", ()=>{ show("start"); buildStart(); });
+el.againMissed.addEventListener("click", ()=>{ mode = "missed"; theme = ""; el.themeSel.value=""; start(); });
+
+function show(which){
+  el.start.hidden = which !== "start";
+  el.quiz.hidden  = which !== "quiz";
+  el.end.hidden   = which !== "end";
+  el.chip.hidden  = which !== "quiz";
+  if(which !== "quiz") el.prog.style.width = which === "end" ? "100%" : "0%";
+  window.scrollTo({top:0, behavior:"instant"});
+}
+
+/* ---------- déroulé ---------- */
+/* Mélange l'ordre des réponses (a/b/c/d) à chaque partie ; la bonne réponse (c) est recalculée */
+function shuffleOptions(q){
+  const order = q.o.map((_,i)=>i);
+  for(let i = order.length - 1; i > 0; i--){
+    const j = Math.floor(Math.random()*(i+1));
+    [order[i], order[j]] = [order[j], order[i]];
+  }
+  return Object.assign({}, q, { o: order.map(i=>q.o[i]), c: order.indexOf(q.c) });
+}
+
+function start(){
+  const pool = pick().slice();
+  for(let i = pool.length - 1; i > 0; i--){
+    const j = Math.floor(Math.random()*(i+1));
+    [pool[i], pool[j]] = [pool[j], pool[i]];
+  }
+  deck = pool.slice(0, Math.min(len, pool.length)).map(shuffleOptions);
+  idx = 0; pts = 0; nGood = 0; nBad = 0; nSkip = 0; log = [];
+  show("quiz"); render();
+}
+
+function render(){
+  answered = false;
+  const q = deck[idx];
+  el.qTheme.textContent = q.t;
+  const years = q.y.filter(y=>y!=="P");
+  el.qYear.textContent = years.length ? years.join(" · ") : "Question probable";
+  el.qHot.hidden = !q.top;
+  el.qCount.textContent = `${idx+1} / ${deck.length}`;
+  el.qText.innerHTML = q.q;
+
+  el.qOpts.innerHTML = "";
+  q.o.forEach((txt,i)=>{
+    const li = document.createElement("li");
+    const b = document.createElement("button");
+    b.className = "opt"; b.type = "button";
+    b.innerHTML = `<span class="key">${String.fromCharCode(97+i)}</span><span>${txt}</span>`;
+    b.addEventListener("click", ()=>answer(i));
+    li.appendChild(b); el.qOpts.appendChild(li);
+  });
+
+  el.fb.hidden = true;
+  el.passWrap.hidden = false;
+  el.chipVal.textContent = fmt(pts);
+  el.prog.style.width = (idx/deck.length*100) + "%";
+  el.nextBtn.textContent = idx === deck.length-1 ? "Voir le résultat" : "Question suivante";
+}
+
+function fmt(n){ return (Math.round(n*100)/100).toString().replace(".", ","); }
+
+function answer(i){
+  if(answered) return;
+  answered = true;
+  const q = deck[idx];
+  const ok = i === q.c;
+  if(ok){ pts += 0.5; nGood++; store.missed = store.missed.filter(id=>id!==q.id); }
+  else  { pts -= 0.25; nBad++; if(!store.missed.includes(q.id)) store.missed.push(q.id); }
+  save();
+  log.push({q, given:i, ok, skipped:false});
+  reveal(q, i, ok ? "good" : "bad");
+}
+
+function skip(){
+  if(answered) return;
+  answered = true;
+  const q = deck[idx];
+  nSkip++;
+  if(!store.missed.includes(q.id)) store.missed.push(q.id);
+  save();
+  log.push({q, given:-1, ok:false, skipped:true});
+  reveal(q, -1, "skip");
+}
+el.passBtn.addEventListener("click", skip);
+
+function reveal(q, given, kind){
+  [...el.qOpts.querySelectorAll(".opt")].forEach((b,i)=>{
+    b.disabled = true;
+    if(i === q.c) b.classList.add("is-good");
+    else if(i === given) b.classList.add("is-bad");
+    else b.classList.add("dim");
+  });
+  el.passWrap.hidden = true;
+  const V = {
+    good:['v-good','Bonne réponse','+0,5'],
+    bad :['v-bad','Mauvaise réponse','−0,25'],
+    skip:['v-skip','Sans réponse','0']
+  }[kind];
+  el.verdict.className = "verdict " + V[0];
+  el.verdict.innerHTML = `${V[1]} <span class="pts">${V[2]} point</span>`;
+  el.why.innerHTML = q.w;
+  el.fb.hidden = false;
+  el.chipVal.textContent = fmt(pts);
+  el.nextBtn.focus({preventScroll:true});
+  el.fb.scrollIntoView({behavior:"smooth", block:"nearest"});
+}
+
+el.nextBtn.addEventListener("click", next);
+function next(){
+  if(idx === deck.length - 1) finish();
+  else { idx++; render(); window.scrollTo({top:0, behavior:"smooth"}); }
+}
+
+function finish(){
+  const max = deck.length * 0.5;
+  const sur8 = Math.max(0, pts / max * 8);
+  el.endScore.innerHTML = `${fmt(pts)}<small> / ${fmt(max)} pts</small>`;
+  el.stGood.textContent = nGood; el.stBad.textContent = nBad; el.stSkip.textContent = nSkip;
+
+  const rate = nGood / deck.length;
+  let line;
+  if(rate >= 0.85)      line = `Équivalent <b>${fmt(sur8)}/8</b> au quizz de l'examen. Majoration en vue !`;
+  else if(rate >= 0.65) line = `Équivalent <b>${fmt(sur8)}/8</b> au quizz. C'est solide, encore quelques révisions sur les ratées.`;
+  else if(rate >= 0.4)  line = `Équivalent <b>${fmt(sur8)}/8</b> au quizz. Reprends les questions de calcul et la théorie des pièges.`;
+  else                  line = `Équivalent <b>${fmt(sur8)}/8</b> au quizz. Première passe : relis les justifications, la deuxième série sera meilleure.`;
+  el.endVerdict.innerHTML = line;
+
+  const bad = log.filter(l=>!l.ok);
+  el.reviewWrap.hidden = bad.length === 0;
+  el.reviewList.innerHTML = "";
+  bad.forEach(l=>{
+    const li = document.createElement("li");
+    li.className = "rev" + (l.skipped ? " skipped" : "");
+    li.innerHTML =
+      `<p class="rq">${l.q.q}</p>
+       <p class="ra">→ ${l.q.o[l.q.c]}</p>
+       <p class="rw">${l.q.w}</p>`;
+    el.reviewList.appendChild(li);
+  });
+
+  if(store.best === null || pts > store.best){ store.best = pts; save(); }
+  el.againMissed.hidden = store.missed.length === 0;
+  el.againMissed.textContent = `Refaire seulement les ratées (${store.missed.length})`;
+  el.memoNote.innerHTML = store.missed.length
+    ? `Tes ${store.missed.length} questions ratées sont gardées dans ce navigateur : tu les retrouveras via le mode « Mes ratées ». Une question redevient acquise dès que tu y réponds juste.`
+    : `Parfait, aucune question en attente. Tu es prêt pour l'examen !`;
+
+  show("end");
+}
+
+/* ---------- clavier ---------- */
+document.addEventListener("keydown", e=>{
+  if(!el.quiz.hidden){
+    if(!answered){
+      const n = parseInt(e.key, 10);
+      if(n >= 1 && n <= deck[idx].o.length){ e.preventDefault(); answer(n-1); }
+      else if(e.key.toLowerCase() === "p"){ e.preventDefault(); skip(); }
+    } else if(e.key === "Enter" || e.key === " "){ e.preventDefault(); next(); }
+  }
+});
+
+buildStart();
+</script>
+
+</body></html>
